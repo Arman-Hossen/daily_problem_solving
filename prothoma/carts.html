@@ -1,0 +1,2543 @@
+<!DOCTYPE html>
+<html lang="bn">
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="csrf-token"
+      content="yK5AGNPvphHu6DHxa9xYBQ2JathTKr9I2QjbUyfq"
+    />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta
+      name="description"
+      content="Prothoma.com is the best online book shop in Bangladesh. Buy novel, history, politics, programming, children, Islamic, west Bengal, fiction & non-fiction books & Gift cards at lowest price. Shop Now!"
+    />
+    <meta name="author" content="" />
+    <title>Prothoma - Login</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <link href="css/frontend/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/frontend/font-awesome.css" rel="stylesheet" />
+    <link href="css/frontend/owl.carousel.css" rel="stylesheet" />
+    <link href="css/frontend/jquery.mCustomScrollbar.css" rel="stylesheet" />
+    <link href="css/frontend/slick.css" rel="stylesheet" />
+    <link href="css/frontend/chosen.css" rel="stylesheet" />
+    <link href="css/frontend/venobox.css" rel="stylesheet" />
+    <link href="css/frontend/bootstrap-datepicker3.css" rel="stylesheet" />
+    <link href="css/frontend/style.css" rel="stylesheet" />
+    <link href="css/frontend/prothoma7839.css?v=1.2" rel="stylesheet" />
+    <link href="css/frontend/cart.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="../code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css"
+    />
+    <style type="text/css">
+      .swal2-popup {
+        font-size: 1.1rem !important;
+      }
+      [v-cloak] {
+        display: none;
+      }
+    </style>
+    <meta property="og:type" content="website" />
+    <meta property="fb:app_id" content="253464549682602" />
+    <meta
+      name="google-site-verification"
+      content="Q0myybu-kxd_9-ogxhnOm6P0vrJlW3DAVHTXN7vVd_g"
+    />
+    <style>
+      .category_tittle_sc {
+        display: none;
+      }
+
+      .payment-left ul li.active a:after {
+        content: "\2713";
+        font-size: 30px;
+      }
+    </style>
+
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "../connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "276574057505481");
+      fbq("track", "PageView");
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=276574057505481&amp;ev=PageView&amp;noscript=1"
+    /></noscript>
+
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "../www.googletagmanager.com/gtm5445.html?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-WTHBJZ7");
+    </script>
+
+    <script type="text/javascript">
+      window.GUMLET_CONFIG = {
+        hosts: [
+          {
+            current: "image.prothoma.com",
+            gumlet: "prothoma.gumlet.io",
+          },
+        ],
+        lazy_load: true,
+      };
+      (function () {
+        d = document;
+        s = d.createElement("script");
+        s.src = "../cdn.gumlet.com/gumlet.js/2.1/gumlet.min.js";
+        s.async = 1;
+        d.getElementsByTagName("head")[0].appendChild(s);
+      })();
+    </script>
+  </head>
+  <body>
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-WTHBJZ7"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+
+    <div id="appMain">
+      <div class="wrapper">
+        <div class="header">
+          <div class="header-bottom header_mid">
+            <div class="container">
+              <div class="row sc_gap_row">
+                <div class="col-xs-6 col-sm-2 col-md-2">
+                  <div class="logo">
+                    <a href="index.html"
+                      ><img src="images/frontend/logo.png" alt="Logo"
+                    /></a>
+                  </div>
+                </div>
+                <div class="col-xs-6 col-sm-10 col-md-10">
+                  <div class="header_search_section">
+                    <div class="search_block hidden-xs">
+                      <form
+                        method="GET"
+                        action="https://www.prothoma.com/book/search"
+                        accept-charset="UTF-8"
+                      >
+                        <input
+                          autocomplete="off"
+                          type="text"
+                          id="product_search"
+                          class="form-control product-search-autocomplete"
+                          name="search"
+                          value=""
+                          placeholder="বইয়ের নাম, লেখক বা বই নিয়ে যে কোনো শব্দ বাংলা বা ইংরেজিতে লিখে খুঁজুন"
+                          data-tracking-category="Field"
+                          data-tracking-action="Click"
+                          data-tracking-label="সার্চ ফিল্ড"
+                        />
+                        <input
+                          type="submit"
+                          class="submit_select2"
+                          value=""
+                          data-tracking-category="Button"
+                          data-tracking-action="Click"
+                          data-tracking-label="সার্চ বাটন"
+                        />
+                      </form>
+                      <ul class="suggesstion-box"></ul>
+                    </div>
+                    <div class="cart_rt">
+                      <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown mc_ac">
+                          <a
+                            href="#"
+                            class="dropdown-toggle"
+                            data-toggle="dropdown"
+                            ><img
+                              src="images/frontend/user_photo.png"
+                              alt=""
+                            /><strong>সাইন ইন</strong></a
+                          >
+                          <ul class="dropdown-menu">
+                            <li><a href="login.html">সাইন ইন</a></li>
+                          </ul>
+                        </li>
+                        <li class="wishlist">
+                          <a href="login.html"
+                            ><img
+                              src="images/frontend/wishlist_bg.png"
+                              alt=""
+                            /><span class="wish-info" id="wishListCountAjax"
+                              >০</span
+                            ></a
+                          >
+                        </li>
+                        <li class="dropdown shopping-bag layoutcart">
+                          <a href="#" class="dropdown-toggle"
+                            ><img
+                              src="images/frontend/cart_bag.png"
+                              alt=""
+                            /><span class="bag-info" id="cartCount">০</span></a
+                          >
+                          <ul class="dropdown-menu">
+                            <li>
+                              <i class="icon icon-icon-05"></i>
+                              <p>আপনার কার্ট খালি</p>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row hidden-lg hidden-sm hidden-md">
+                <div class="col-xs-12">
+                  <div class="search_block sc_gap">
+                    <form
+                      method="GET"
+                      action="https://www.prothoma.com/book/search"
+                      accept-charset="UTF-8"
+                    >
+                      <input
+                        type="text"
+                        id="product_search_mobile"
+                        class="form-control product-search-autocomplete"
+                        name="search"
+                        value=""
+                        placeholder="বইয়ের নাম, লেখক বা বই নিয়ে যে কোনো শব্দ বাংলা বা ইংরেজিতে লিখে খুঁজুন"
+                      />
+                      <input type="submit" class="submit_select2" value="" />
+                    </form>
+                    <ul class="suggesstion-box"></ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mobile_menu hidden-lg hidden-md hidden-sm">
+              <a
+                href="#"
+                data-toggle="modal"
+                data-target="#side_menu_block"
+              ></a>
+            </div>
+          </div>
+          <div class="header-bottom header_desktop_menu">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="header-inner">
+                    <div class="navbar navbar-default navbar-static-top">
+                      <div class="navbar-header"></div>
+                      <div id="navbar" class="navbar-collapse">
+                        <ul class="nav navbar-nav navbar-left">
+                          <li id="nav_menu_60">
+                            <a
+                              href="publisher/prothoma.html"
+                              class="no-icon-sidebar"
+                              >প্রথমা প্রকাশন</a
+                            >
+                          </li>
+                          <li class="dropdown" id="writer">
+                            <a href="author.html" class="">লেখক</a>
+                          </li>
+                          <li class="dropdown" id="publisher">
+                            <a href="publisher.html" class="">প্রকাশক</a>
+                          </li>
+                          <li class="dropdown" id="category">
+                            <a href="category.html" class="">বিষয়</a>
+                          </li>
+                          <li id="nav_menu_70">
+                            <a href="login.html" class="no-icon-sidebar"
+                              >মুক্তিযুদ্ধ</a
+                            >
+                          </li>
+                          <li id="nav_menu_74">
+                            <a
+                              href="category/%e0%a6%b0%e0%a6%be%e0%a6%9c%e0%a6%a8%e0%a7%80%e0%a6%a4%e0%a6%bf.html"
+                              class="no-icon-sidebar"
+                              >রাজনীতি</a
+                            >
+                          </li>
+                          <li id="nav_menu_86">
+                            <a
+                              href="category/economy.html"
+                              class="no-icon-sidebar"
+                              >অর্থনীতি</a
+                            >
+                          </li>
+                          <li id="nav_menu_81">
+                            <a
+                              href="category/dhorrmo.html"
+                              class="no-icon-sidebar"
+                              >ধর্ম</a
+                            >
+                          </li>
+                          <li id="nav_menu_66">
+                            <a
+                              href="category/%e0%a6%ae%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%97%e0%a6%be%e0%a6%9c%e0%a6%bf%e0%a6%a8.html"
+                              class="no-icon-sidebar"
+                              >ম্যাগাজিন</a
+                            >
+                          </li>
+                          <li id="nav_menu_95">
+                            <a
+                              href="category/boimela-2023.html"
+                              class="no-icon-sidebar"
+                              >বইমেলা ২০২৩</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="dropdown_container">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <ul
+                      class="dropdown-menu"
+                      id="menu_writer"
+                      style="display: none"
+                    >
+                      <li>
+                        <ul>
+                          <li>
+                            <a href="author/akbar-ali-khan.html" class=""
+                              >আকবর আলি খান</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="author/%e0%a6%86%e0%a6%a8%e0%a6%bf%e0%a6%b8%e0%a7%81%e0%a6%9c%e0%a7%8d%e0%a6%9c%e0%a6%be%e0%a6%ae%e0%a6%be%e0%a6%a8.html"
+                              class=""
+                              >আনিসুজ্জামান</a
+                            >
+                          </li>
+                          <li>
+                            <a href="author/anisul-haque.html" class=""
+                              >আনিসুল হক</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="author/%e0%a6%86%e0%a6%ac%e0%a7%81%e0%a6%b2-%e0%a6%ae%e0%a6%a8%e0%a6%b8%e0%a7%81%e0%a6%b0-%e0%a6%86%e0%a6%b9%e0%a6%ae%e0%a6%a6.html"
+                              class=""
+                              >আবুল মনসুর আহমদ</a
+                            >
+                          </li>
+                          <li>
+                            <a href="author/ali-riaz-1.html" class=""
+                              >আলী রীয়াজ</a
+                            >
+                          </li>
+                          <li>
+                            <a href="author/asif-nazrul.html" class=""
+                              >আসিফ নজরুল</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="author/%e0%a6%97%e0%a7%8b%e0%a6%b2%e0%a6%be%e0%a6%ae-%e0%a6%ae%e0%a7%81%e0%a6%b0%e0%a6%b6%e0%a6%bf%e0%a6%a6.html"
+                              class=""
+                              >গোলাম মুরশিদ</a
+                            >
+                          </li>
+                          <li>
+                            <a href="author/matiur-rahman.html" class=""
+                              >মতিউর রহমান</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <ul>
+                          <li>
+                            <a href="author/mohiuddin-ahmmod.html" class=""
+                              >মহিউদ্দিন আহমদ</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="author/%e0%a6%ae%e0%a6%be%e0%a6%b2%e0%a7%87%e0%a6%95%e0%a6%be-%e0%a6%ac%e0%a7%87%e0%a6%97%e0%a6%ae.html"
+                              class=""
+                              >মালেকা বেগম</a
+                            >
+                          </li>
+                          <li>
+                            <a href="author/mizanur-rahman-khan.html" class=""
+                              >মিজানুর রহমান খান</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="author/%e0%a6%ae%e0%a7%81%e0%a6%b9%e0%a6%be%e0%a6%ae%e0%a7%8d%e0%a6%ae%e0%a6%a6-%e0%a6%b9%e0%a6%be%e0%a6%ac%e0%a6%bf%e0%a6%ac%e0%a7%81%e0%a6%b0-%e0%a6%b0%e0%a6%b9%e0%a6%ae%e0%a6%be%e0%a6%a8.html"
+                              class=""
+                              >মুহাম্মদ হাবিবুর রহমান</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="author/%e0%a6%b0%e0%a7%87%e0%a6%b9%e0%a6%ae%e0%a6%be%e0%a6%a8-%e0%a6%b8%e0%a7%8b%e0%a6%ac%e0%a6%b9%e0%a6%be%e0%a6%a8.html"
+                              class=""
+                              >রেহমান সোবহান</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="author/%e0%a6%b6%e0%a6%be%e0%a6%b9%e0%a6%be%e0%a6%a6%e0%a7%81%e0%a6%9c%e0%a7%8d%e0%a6%9c%e0%a6%be%e0%a6%ae%e0%a6%be%e0%a6%a8.html"
+                              class=""
+                              >শাহাদুজ্জামান</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="author/%e0%a6%b8%e0%a7%88%e0%a6%af%e0%a6%bc%e0%a6%a6-%e0%a6%b6%e0%a6%be%e0%a6%ae%e0%a6%b8%e0%a7%81%e0%a6%b2-%e0%a6%b9%e0%a6%95.html"
+                              class=""
+                              >সৈয়দ শামসুল হক</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="author/%e0%a6%b9%e0%a7%81%e0%a6%ae%e0%a6%be%e0%a6%af%e0%a6%bc%e0%a7%82%e0%a6%a8-%e0%a6%86%e0%a6%b9%e0%a6%ae%e0%a7%87%e0%a6%a6.html"
+                              class=""
+                              >হুমায়ূন আহমেদ</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <ul>
+                          <li>
+                            <a href="author/abul-bashar.html" class=""
+                              >আবুল বাসার</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="author/%e0%a6%86%e0%a6%b2%e0%a6%a4%e0%a6%be%e0%a6%ab-%e0%a6%aa%e0%a6%be%e0%a6%b0%e0%a6%ad%e0%a7%87%e0%a6%9c.html"
+                              class=""
+                              >আলতাফ পারভেজ</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="author/%e0%a6%9c%e0%a6%be%e0%a6%ad%e0%a7%87%e0%a6%a6-%e0%a6%b9%e0%a7%81%e0%a6%b8%e0%a7%87%e0%a6%a8.html"
+                              class=""
+                              >জাভেদ হুসেন</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="author/%e0%a6%aa%e0%a6%bf%e0%a6%af%e0%a6%bc%e0%a6%be%e0%a6%b8-%e0%a6%ae%e0%a6%9c%e0%a6%bf%e0%a6%a6.html"
+                              class=""
+                              >পিয়াস মজিদ</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="author/%e0%a6%ae%e0%a7%81%e0%a6%a8%e0%a6%9c%e0%a7%87%e0%a6%b0%e0%a6%bf%e0%a6%a8-%e0%a6%b6%e0%a6%b9%e0%a7%80%e0%a6%a6.html"
+                              class=""
+                              >মুনজেরিন শহীদ</a
+                            >
+                          </li>
+                          <li>
+                            <a href="author/munir-hasan.html" class=""
+                              >মুনির হাসান</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="author/%e0%a6%ae%e0%a7%8b%e0%a6%b9%e0%a6%be%e0%a6%ae%e0%a7%8d%e0%a6%ae%e0%a6%a6-%e0%a6%a8%e0%a6%be%e0%a6%9c%e0%a6%bf%e0%a6%ae-%e0%a6%89%e0%a6%a6%e0%a7%8d%e0%a6%a6%e0%a6%bf%e0%a6%a8.html"
+                              class=""
+                              >মোহাম্মদ নাজিম উদ্দিন</a
+                            >
+                          </li>
+                          <li>
+                            <a href="author/sadat-hossain.html" class=""
+                              >সাদাত হোসাইন</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <ul>
+                          <li>
+                            <a
+                              href="author/%e0%a6%86%e0%a6%96%e0%a6%a4%e0%a6%be%e0%a6%b0%e0%a7%81%e0%a6%9c%e0%a7%8d%e0%a6%9c%e0%a6%be%e0%a6%ae%e0%a6%be%e0%a6%a8-%e0%a6%87%e0%a6%b2%e0%a6%bf%e0%a6%af%e0%a6%bc%e0%a6%be%e0%a6%b8.html"
+                              class=""
+                              >আখতারুজ্জামান ইলিয়াস</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="author/%e0%a6%ac%e0%a6%bf%e0%a6%ad%e0%a7%82%e0%a6%a4%e0%a6%bf%e0%a6%ad%e0%a7%82%e0%a6%b7%e0%a6%a3-%e0%a6%ac%e0%a6%a8%e0%a7%8d%e0%a6%a6%e0%a7%8d%e0%a6%af%e0%a7%8b%e0%a6%aa%e0%a6%be%e0%a6%a7%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%af%e0%a6%bc.html"
+                              class=""
+                              >বিভূতিভূষণ বন্দ্যোপাধ্যায়</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="author/%e0%a6%ae%e0%a6%be%e0%a6%a8%e0%a6%bf%e0%a6%95-%e0%a6%ac%e0%a6%a8%e0%a7%8d%e0%a6%a6%e0%a7%8d%e0%a6%af%e0%a7%8b%e0%a6%aa%e0%a6%be%e0%a6%a7%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%af%e0%a6%bc.html"
+                              class=""
+                              >মানিক বন্দ্যোপাধ্যায়</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="author/%e0%a6%b6%e0%a7%80%e0%a6%b0%e0%a7%8d%e0%a6%b7%e0%a7%87%e0%a6%a8%e0%a7%8d%e0%a6%a6%e0%a7%81-%e0%a6%ae%e0%a7%81%e0%a6%96%e0%a7%8b%e0%a6%aa%e0%a6%be%e0%a6%a7%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%af%e0%a6%bc.html"
+                              class=""
+                              >শীর্ষেন্দু মুখোপাধ্যায়</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="author/%e0%a6%b8%e0%a6%a4%e0%a7%8d%e0%a6%af%e0%a6%9c%e0%a6%bf%e0%a7%8e-%e0%a6%b0%e0%a6%be%e0%a6%af%e0%a6%bc.html"
+                              class=""
+                              >সত্যজিৎ রায়</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="author/%e0%a6%b8%e0%a6%ae%e0%a6%b0%e0%a7%87%e0%a6%b6-%e0%a6%ae%e0%a6%9c%e0%a7%81%e0%a6%ae%e0%a6%a6%e0%a6%be%e0%a6%b0.html"
+                              class=""
+                              >সমরেশ মজুমদার</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="author/%e0%a6%b8%e0%a7%81%e0%a6%a8%e0%a7%80%e0%a6%b2-%e0%a6%97%e0%a6%99%e0%a7%8d%e0%a6%97%e0%a7%8b%e0%a6%aa%e0%a6%be%e0%a6%a7%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%af%e0%a6%bc.html"
+                              class=""
+                              >সুনীল গঙ্গোপাধ্যায়</a
+                            >
+                          </li>
+                          <li>
+                            <a href="author.html" class="s_more">আরো দেখুন</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <ul
+                      class="dropdown-menu"
+                      id="menu_category"
+                      style="display: none"
+                    >
+                      <li>
+                        <ul>
+                          <li>
+                            <a href="category/newbooks.html" class=""
+                              >নতুন বই</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="category/%e0%a6%89%e0%a6%aa%e0%a6%a8%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%b8-%e0%a6%9b%e0%a7%8b%e0%a6%9f%e0%a6%97%e0%a6%b2%e0%a7%8d%e0%a6%aa.html"
+                              class=""
+                              >কথাসাহিত্য</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="category/%e0%a6%87%e0%a6%a4%e0%a6%bf%e0%a6%b9%e0%a6%be%e0%a6%b8-%e0%a6%93-%e0%a6%90%e0%a6%a4%e0%a6%bf%e0%a6%b9%e0%a7%8d%e0%a6%af.html"
+                              class=""
+                              >ইতিহাস ও ঐতিহ্য</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="category/%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%ac%e0%a6%a8%e0%a7%8d%e0%a6%a7-%e0%a6%97%e0%a6%ac%e0%a7%87%e0%a6%b7%e0%a6%a3%e0%a6%be-%e0%a6%93-%e0%a6%85%e0%a6%a8%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%a8%e0%a7%8d%e0%a6%af.html"
+                              class=""
+                              >প্রবন্ধ, গবেষণা ও অন্যান্য</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="category/%e0%a6%9c%e0%a7%80%e0%a6%ac%e0%a6%a8%e0%a7%80.html"
+                              class=""
+                              >জীবনী/আত্মকথা/স্মৃতিকথা</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="category/%e0%a6%b8%e0%a6%be%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a6%be%e0%a7%8e%e0%a6%95%e0%a6%be%e0%a6%b0.html"
+                              class=""
+                              >সাক্ষাৎকার</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="category/%e0%a6%86%e0%a6%a4%e0%a7%8d%e0%a6%ae-%e0%a6%89%e0%a6%a8%e0%a7%8d%e0%a6%a8%e0%a6%af%e0%a6%bc%e0%a6%a8.html"
+                              class=""
+                              >আত্মোন্নয়ন</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="category/%e0%a6%aa%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a7%87%e0%a6%9c.html"
+                              class=""
+                              >প্যাকেজ</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <ul>
+                          <li>
+                            <a
+                              href="category/%e0%a6%ac%e0%a6%bf%e0%a6%9c%e0%a7%8d%e0%a6%9e%e0%a6%be%e0%a6%a8-%e0%a6%97%e0%a6%a3%e0%a6%bf%e0%a6%a4.html"
+                              class=""
+                              >গণিত, বিজ্ঞান ও প্রযুক্তি</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="category/%e0%a6%ac%e0%a6%bf%e0%a6%9c%e0%a7%8d%e0%a6%9e%e0%a6%be%e0%a6%a8-%e0%a6%95%e0%a6%b2%e0%a7%8d%e0%a6%aa%e0%a6%95%e0%a6%be%e0%a6%b9%e0%a6%bf%e0%a6%a8%e0%a6%bf.html"
+                              class=""
+                              >বিজ্ঞান কল্পকাহিনি</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="category/%e0%a6%ad%e0%a6%be%e0%a6%b0%e0%a6%a4%e0%a7%80%e0%a6%af%e0%a6%bc.html"
+                              class=""
+                              >ভারতীয় বই</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="category/%e0%a6%85%e0%a6%a8%e0%a7%81%e0%a6%ac%e0%a6%be%e0%a6%a6.html"
+                              class=""
+                              >অনুবাদ</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="category/%e0%a6%ad%e0%a7%8d%e0%a6%b0%e0%a6%ae%e0%a6%a3%e0%a6%97%e0%a6%b2%e0%a7%8d%e0%a6%aa.html"
+                              class=""
+                              >ভ্রমণ ও প্রবাস</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="category/%e0%a6%b8%e0%a7%8d%e0%a6%ac%e0%a6%be%e0%a6%b8%e0%a7%8d%e0%a6%a5%e0%a7%8d%e0%a6%af.html"
+                              class=""
+                              >স্বাস্থ্য, পরিচর্যা ও চিকিৎসা</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="category/%e0%a6%b6%e0%a6%bf%e0%a6%b6%e0%a7%81-%e0%a6%95%e0%a6%bf%e0%a6%b6%e0%a7%8b%e0%a6%b0-%e0%a6%b8%e0%a6%be%e0%a6%b9%e0%a6%bf%e0%a6%a4%e0%a7%8d%e0%a6%af.html"
+                              class=""
+                              >শিশু-কিশোর সাহিত্য</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="category/%e0%a6%96%e0%a7%87%e0%a6%b2%e0%a6%be%e0%a6%a7%e0%a7%81%e0%a6%b2%e0%a6%be.html"
+                              class=""
+                              >খেলাধুলা</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <ul>
+                          <li>
+                            <a
+                              href="category/%e0%a6%b0%e0%a6%b9%e0%a6%b8%e0%a7%8d%e0%a6%af%e2%80%93%e0%a6%b0%e0%a7%8b%e0%a6%ae%e0%a6%be%e0%a6%9e%e0%a7%8d%e0%a6%9a-%e0%a6%97%e0%a7%8b%e0%a6%af%e0%a6%bc%e0%a7%87%e0%a6%a8%e0%a7%8d%e0%a6%a6%e0%a6%be-%e0%a6%93-%e0%a6%ad%e0%a7%8c%e0%a6%a4%e0%a6%bf%e0%a6%95.html"
+                              class=""
+                              >রহস্য–রোমাঞ্চ, গোয়েন্দা ও ভৌতিক</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="category/%e0%a6%ab%e0%a7%8d%e0%a6%b0%e0%a6%bf%e0%a6%b2%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%a8%e0%a7%8d%e0%a6%b8%e0%a6%bf%e0%a6%82-%e0%a6%93-%e0%a6%86%e0%a6%89%e0%a6%9f%e0%a6%b8%e0%a7%8b%e0%a6%b0%e0%a7%8d%e0%a6%b8%e0%a6%bf%e0%a6%82.html"
+                              class=""
+                              >ফ্রিল্যান্সিং ও আউটসোর্সিং</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="category/%e0%a6%87%e0%a6%82%e0%a6%b0%e0%a7%87%e0%a6%9c%e0%a6%bf-%e0%a6%ac%e0%a6%87.html"
+                              class=""
+                              >ইংরেজি বই</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="category/%e0%a6%95%e0%a6%ae%e0%a6%bf%e0%a6%95%e0%a6%b8-%e0%a6%93-%e0%a6%97%e0%a7%8d%e0%a6%b0%e0%a6%be%e0%a6%ab%e0%a6%bf%e0%a6%95-%e0%a6%a8%e0%a6%ad%e0%a7%87%e0%a6%b2.html"
+                              class=""
+                              >কমিকস ও গ্রাফিক নভেল</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="category/%e0%a6%aa%e0%a6%b0%e0%a6%bf%e0%a6%ac%e0%a6%be%e0%a6%b0-%e0%a6%93-%e0%a6%b6%e0%a6%bf%e0%a6%b6%e0%a7%81.html"
+                              class=""
+                              >পরিবার ও শিশু</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="category/%e0%a6%86%e0%a6%87%e0%a6%a8-%e0%a6%93-%e0%a6%ac%e0%a6%bf%e0%a6%9a%e0%a6%be%e0%a6%b0.html"
+                              class=""
+                              >আইন ও বিচার</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="category/%e0%a6%b8%e0%a6%ae%e0%a6%be%e0%a6%9c-%e0%a6%87%e0%a6%a4%e0%a6%bf%e0%a6%b9%e0%a6%be%e0%a6%b8-%e0%a6%93-%e0%a6%b8%e0%a6%82%e0%a6%b8%e0%a7%8d%e0%a6%95%e0%a7%83%e0%a6%a4%e0%a6%bf.html"
+                              class=""
+                              >সমাজ, ইতিহাস ও সংস্কৃতি</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="category/%e0%a6%aa%e0%a6%a1%e0%a6%bc%e0%a6%be%e0%a6%b6%e0%a7%8b%e0%a6%a8%e0%a6%be-1.html"
+                              class=""
+                              >পড়াশোনা</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <ul>
+                          <li>
+                            <a href="category/bangabandhu.html" class=""
+                              >বঙ্গবন্ধু</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="category/%e0%a6%ad%e0%a6%be%e0%a6%b7%e0%a6%be-%e0%a6%86%e0%a6%a8%e0%a7%8d%e0%a6%a6%e0%a7%8b%e0%a6%b2%e0%a6%a8.html"
+                              class=""
+                              >ভাষা আন্দোলন</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="category/%e0%a6%ac%e0%a7%8d%e0%a6%af%e0%a6%ac%e0%a6%b8%e0%a6%be-%e0%a6%93-%e0%a6%ac%e0%a6%bf%e0%a6%a8%e0%a6%bf%e0%a6%af%e0%a6%bc%e0%a7%8b%e0%a6%97.html"
+                              class=""
+                              >ব্যবসা ও বিনিয়োগ</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="category/%e0%a6%b0%e0%a6%be%e0%a6%a8%e0%a7%8d%e0%a6%a8%e0%a6%be%e0%a6%ac%e0%a6%bf%e0%a6%b7%e0%a6%af%e0%a6%bc%e0%a6%95.html"
+                              class=""
+                              >রান্না, খাদ্য ও পুষ্টি</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="category/%e0%a6%a6%e0%a6%b0%e0%a7%8d%e0%a6%b6%e0%a6%a8.html"
+                              class=""
+                              >দর্শন</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="category/%e0%a6%b0%e0%a6%9a%e0%a6%a8%e0%a6%be%e0%a6%ac%e0%a6%b2%e0%a7%80.html"
+                              class=""
+                              >রচনাবলী</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="category/%e0%a6%ac%e0%a6%bf%e0%a6%a6%e0%a7%87%e0%a6%b6%e0%a7%80-%e0%a6%ac%e0%a6%87.html"
+                              class=""
+                              >বিদেশী বই</a
+                            >
+                          </li>
+                          <li>
+                            <a href="category.html" class="s_more">আরো দেখুন</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <ul
+                      class="dropdown-menu"
+                      id="menu_publisher"
+                      style="display: none"
+                    >
+                      <li>
+                        <ul>
+                          <li>
+                            <a
+                              href="publisher/%e0%a6%85%e0%a6%a8%e0%a6%a8%e0%a7%8d%e0%a6%af%e0%a6%be-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%95%e0%a6%be%e0%a6%b6%e0%a6%a8%e0%a7%80.html"
+                              class=""
+                              >অনন্যা</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="publisher/%e0%a6%85%e0%a6%a8%e0%a6%bf%e0%a6%a8%e0%a7%8d%e0%a6%a6%e0%a7%8d%e0%a6%af-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%95%e0%a6%be%e0%a6%b6.html"
+                              class=""
+                              >অনিন্দ্য প্রকাশ</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="publisher/%e0%a6%85%e0%a6%a8%e0%a7%81%e0%a6%aa%e0%a6%ae-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%95%e0%a6%be%e0%a6%b6%e0%a6%a8%e0%a7%80.html"
+                              class=""
+                              >অনুপম প্রকাশনী</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="publisher/%e0%a6%85%e0%a6%a8%e0%a7%8d%e0%a6%ac%e0%a7%87%e0%a6%b7%e0%a6%be-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%95%e0%a6%be%e0%a6%b6%e0%a6%a8.html"
+                              class=""
+                              >অন্বেষা প্রকাশন</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="publisher/%e0%a6%85%e0%a6%a8%e0%a7%8d%e0%a6%af%e0%a6%a7%e0%a6%be%e0%a6%b0%e0%a6%be.html"
+                              class=""
+                              >অন্যধারা</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="publisher/%e0%a6%85%e0%a6%a8%e0%a7%8d%e0%a6%af%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%95%e0%a6%be%e0%a6%b6.html"
+                              class=""
+                              >অন্যপ্রকাশ</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="publisher/%e0%a6%85%e0%a6%ac%e0%a6%b8%e0%a6%b0-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%95%e0%a6%be%e0%a6%b6%e0%a6%a8.html"
+                              class=""
+                              >অবসর-প্রকাশন</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="publisher/%e0%a6%86%e0%a6%a8%e0%a6%a8%e0%a7%8d%e0%a6%a6-%e0%a6%aa%e0%a6%be%e0%a6%ac%e0%a6%b2%e0%a6%bf%e0%a6%b6%e0%a6%be%e0%a6%b0%e0%a7%8d%e0%a6%b8-(%e0%a6%ad%e0%a6%be%e0%a6%b0%e0%a6%a4).html"
+                              class=""
+                              >আনন্দ পাবলিশার্স (ভারত)</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <ul>
+                          <li>
+                            <a
+                              href="publisher/%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%a1%e0%a6%b0%e0%a7%8d%e0%a6%a8-%e0%a6%aa%e0%a6%be%e0%a6%ac%e0%a6%b2%e0%a6%bf%e0%a6%95%e0%a7%87%e0%a6%b6%e0%a6%a8.html"
+                              class=""
+                              >অ্যাডর্ন পাবলিকেশন</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="publisher/%e0%a6%86%e0%a6%97%e0%a6%be%e0%a6%ae%e0%a7%80-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%95%e0%a6%be%e0%a6%b6%e0%a6%a8%e0%a7%80.html"
+                              class=""
+                              >আগামী প্রকাশনী</a
+                            >
+                          </li>
+                          <li>
+                            <a href="publisher/adarsha.html" class="">আদর্শ</a>
+                          </li>
+                          <li>
+                            <a
+                              href="publisher/%e0%a6%87%e0%a6%a4%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%a6%e0%a6%bf-%e0%a6%97%e0%a7%8d%e0%a6%b0%e0%a6%a8%e0%a7%8d%e0%a6%a5-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%95%e0%a6%be%e0%a6%b6.html"
+                              class=""
+                              >ইত্যাদি গ্রন্থ প্রকাশ</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="publisher/%e0%a6%90%e0%a6%a4%e0%a6%bf%e0%a6%b9%e0%a7%8d%e0%a6%af.html"
+                              class=""
+                              >ঐতিহ্য</a
+                            >
+                          </li>
+                          <li>
+                            <a href="publisher/kathaprokash.html" class=""
+                              >কথাপ্রকাশ</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="publisher/%e0%a6%95%e0%a6%be%e0%a6%95%e0%a6%b2%e0%a7%80-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%95%e0%a6%be%e0%a6%b6%e0%a6%a8%e0%a7%80.html"
+                              class=""
+                              >কাকলী প্রকাশনী</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="publisher/%e0%a6%96%e0%a6%be%e0%a6%a8-%e0%a6%ac%e0%a7%8d%e0%a6%b0%e0%a6%be%e0%a6%a6%e0%a6%be%e0%a6%b0%e0%a7%8d%e0%a6%b8-%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%a8%e0%a7%8d%e0%a6%a1-%e0%a6%95%e0%a7%8b%e0%a6%ae%e0%a7%8d%e0%a6%aa%e0%a6%be%e0%a6%a8%e0%a6%bf.html"
+                              class=""
+                              >খান ব্রাদার্স অ্যান্ড কোম্পানি</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <ul>
+                          <li>
+                            <a
+                              href="publisher/%e0%a6%9c%e0%a6%be%e0%a6%97%e0%a7%83%e0%a6%a4%e0%a6%bf-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%95%e0%a6%be%e0%a6%b6%e0%a6%a8%e0%a7%80.html"
+                              class=""
+                              >জাগৃতি প্রকাশনী</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="publisher/%e0%a6%a4%e0%a6%be%e0%a6%ae%e0%a7%8d%e0%a6%b0%e0%a6%b2%e0%a6%bf%e0%a6%aa%e0%a6%bf.html"
+                              class=""
+                              >তাম্রলিপি</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="publisher/%e0%a6%a6%e0%a6%bf-%e0%a6%87%e0%a6%89%e0%a6%a8%e0%a6%bf%e0%a6%ad%e0%a6%be%e0%a6%b0%e0%a7%8d%e0%a6%b8%e0%a6%bf%e0%a6%9f%e0%a6%bf-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a7%87%e0%a6%b8-%e0%a6%b2%e0%a6%bf%e0%a6%ae%e0%a6%bf%e0%a6%9f%e0%a7%87%e0%a6%a1.html"
+                              class=""
+                              >দি ইউনিভার্সিটি প্রেস লিমিটেড(ইউ পি এল)</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="publisher/%e0%a6%a6%e0%a6%bf%e0%a6%ac%e0%a7%8d%e0%a6%af-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%95%e0%a6%be%e0%a6%b6.html"
+                              class=""
+                              >দিব্য প্রকাশ</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="publisher/%e0%a6%a6%e0%a7%87%e2%80%99%e0%a6%9c-%e0%a6%aa%e0%a6%be%e0%a6%ac%e0%a6%b2%e0%a6%bf%e0%a6%b6%e0%a6%bf%e0%a6%82-(%e0%a6%ad%e0%a6%be%e0%a6%b0%e0%a6%a4).html"
+                              class=""
+                              >দে’জ পাবলিশিং (ভারত)</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="publisher/%e0%a6%aa%e0%a6%be%e0%a6%9e%e0%a7%8d%e0%a6%9c%e0%a7%87%e0%a6%b0%e0%a7%80-%e0%a6%aa%e0%a6%be%e0%a6%ac%e0%a6%b2%e0%a6%bf%e0%a6%95%e0%a7%87%e0%a6%b6%e0%a6%a8%e0%a7%8d%e0%a6%b8.html"
+                              class=""
+                              >পাঞ্জেরী পাবলিকেশন্স</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="publisher/%e0%a6%aa%e0%a6%be%e0%a6%a0%e0%a6%95-%e0%a6%b8%e0%a6%ae%e0%a6%be%e0%a6%ac%e0%a7%87%e0%a6%b6.html"
+                              class=""
+                              >পাঠক সমাবেশ</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="publisher/%e0%a6%aa%e0%a6%be%e0%a6%b0%e0%a7%8d%e0%a6%b2-%e0%a6%aa%e0%a6%be%e0%a6%ac%e0%a6%b2%e0%a6%bf%e0%a6%b6%e0%a6%be%e0%a6%b0%e0%a7%8d%e0%a6%b8.html"
+                              class=""
+                              >পার্ল পাবলিকেশন্স</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <ul>
+                          <li>
+                            <a
+                              href="publisher/%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%a4%e0%a7%80%e0%a6%95-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%95%e0%a6%be%e0%a6%b6%e0%a6%a8%e0%a6%be.html"
+                              class=""
+                              >প্রতীক প্রকাশনা</a
+                            >
+                          </li>
+                          <li>
+                            <a href="publisher/prothoma.html" class=""
+                              >প্রথমা প্রকাশন</a
+                            >
+                          </li>
+                          <li>
+                            <a href="publisher/baatighar-1.html" class=""
+                              >বাতিঘর</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="publisher/%e0%a6%ac%e0%a6%bf%e0%a6%b6%e0%a7%8d%e0%a6%ac%e0%a6%b8%e0%a6%be%e0%a6%b9%e0%a6%bf%e0%a6%a4%e0%a7%8d%e0%a6%af-%e0%a6%95%e0%a7%87%e0%a6%a8%e0%a7%8d%e0%a6%a6%e0%a7%8d%e0%a6%b0.html"
+                              class=""
+                              >বিশ্বসাহিত্য কেন্দ্র</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="publisher/%e0%a6%ae%e0%a6%be%e0%a6%93%e0%a6%b2%e0%a6%be-%e0%a6%ac%e0%a7%8d%e0%a6%b0%e0%a6%be%e0%a6%a6%e0%a6%be%e0%a6%b0%e0%a7%8d%e0%a6%b8.html"
+                              class=""
+                              >মাওলা ব্রাদার্স</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="publisher/%e0%a6%ac%e0%a7%87%e0%a6%99%e0%a7%8d%e0%a6%97%e0%a6%b2-%e0%a6%aa%e0%a6%be%e0%a6%ac%e0%a6%b2%e0%a6%bf%e0%a6%95%e0%a7%87%e0%a6%b6%e0%a6%a8%e0%a7%8d%e2%80%8c%e0%a6%b8.html"
+                              class=""
+                              >বেঙ্গল পাবলিকেশন্‌স</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="publisher/%e0%a6%b8%e0%a6%ae%e0%a6%af%e0%a6%bc-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%95%e0%a6%be%e0%a6%b6%e0%a6%a8.html"
+                              class=""
+                              >সময় প্রকাশন</a
+                            >
+                          </li>
+                          <li>
+                            <a href="publisher.html" class="s_more"
+                              >আরো দেখুন</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content custom" style="transform: none;">
+            <div class="container cartupdate" style="transform: none;">
+               <div class="row" style="transform: none;">
+                  <div class="col-xs-12 col-sm-8 col-md-9 cart-wrapper">
+                     <form action="#" method="post">
+                        <div class="table-responsive cart-table table-responsive">
+                           <table class="table">
+                              <thead>
+                                 <tr>
+                                    <th>
+                                       <div class="pr-tittle">শপিং কার্ট</div>
+                                       <div class="pr-chk">
+                                          <div class="qc_checkbox">
+                                             <input name="select_all" id="select_all" type="checkbox" checked="">
+                                             <label for="select_all" class="select-all">সকল বই সিলেক্ট করুন </label>
+                                          </div>
+                                       </div>
+                                    </th>
+                                    <th class="qn-col2">পরিমাণ</th>
+                                    <th class="prc-col">মোট</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <td>
+                                       <div class="product-info-block">
+                                          <div class="product-thumb">
+                                             <img data-src="https://image.prothoma.com/productThumbs/2021/03/604708490a540_1615267913.jpg" alt="" loading="lazy" src="https://prothoma.gumlet.io/productThumbs/2021/03/604708490a540_1615267913.jpg?w=160&amp;dpr=1.0" class="gm-loaded gm-observing gm-observing-cb">
+                                          </div>
+                                          <div class="product-right">
+                                             <h2>সংসার</h2>
+                                             <div class="size">
+                                                <span class="size-info"><strong>লেখক :</strong> আসিফ নজরুল</span>
+                                             </div>
+                                             <div class="qn-mobile">
+                                                <div class="add-cart">
+                                                   <span class="item-amount cartitem">
+                                                   <input type="hidden" name="rowid" value="b9c0750d9a2cc9c15becad10614fb781">
+                                                   <input type="button" class="minus-cart" name="minus">
+                                                   <input type="text" placeholder="1" class="form-control cartInputQuantity" name="quantity" value="2" min="1">
+                                                   <input type="button" class="plus-cart" name="plus">
+                                                   </span>
+                                                </div>
+                                             </div>
+                                             <div class="os-offer-mobile">
+                                                <div class="offer"><span class="tk-sign">৳</span><span class="ofr-price">২২১.৪০</span></div>
+                                                <div class="total-price"><span class="tk-sign">৳</span><span class="rg-price">৪৪২.৮০</span></div>
+                                             </div>
+                                             <div class="bottom-block">
+                                                <span class="save"><a href="https://www.prothoma.com/book/add-to-wishlist/10259" class="addToWishListButton">পছন্দের তালিকায় রাখুন</a></span>
+                                                <span class="remove"><a href="javascript:void(0);" onclick="removeCart('b9c0750d9a2cc9c15becad10614fb781');">বাদ দিন</a></span>
+                                             </div>
+                                          </div>
+                                          <div class="cr_check_block">
+                                             <input class="cart-check" name="cart-check" value="b9c0750d9a2cc9c15becad10614fb781" id="qc_check_b9c0750d9a2cc9c15becad10614fb781" type="checkbox" checked="">
+                                             <label for="qc_check_b9c0750d9a2cc9c15becad10614fb781"></label>
+                                          </div>
+                                       </div>
+                                    </td>
+                                    <td>
+                                       <div class="quantity-block">
+                                          <div class="add-cart">
+                                             <span class="item-amount cartitem">
+                                             <input type="hidden" name="rowid" value="b9c0750d9a2cc9c15becad10614fb781">
+                                             <input type="button" class="minus-cart" name="minus">
+                                             <input type="text" placeholder="1" class="form-control cartInputQuantity" name="quantity" value="2" min="1">
+                                             <input type="button" class="plus-cart" name="plus">
+                                             </span>
+                                          </div>
+                                       </div>
+                                    </td>
+                                    <td class="offer-col">
+                                       <div class="ofer-rt-ct">
+                                          <div class="offer"><span class="tk-sign">৳</span><span class="ofr-price">২৭০.০০</span></div>
+                                          <div class="total-price"><span class="tk-sign">৳</span><span class="rg-price">৪৪২.৮০</span></div>
+                                       </div>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td>
+                                       <div class="product-info-block">
+                                          <div class="product-thumb">
+                                             <img data-src="https://image.prothoma.com/productThumbs/2023/08/64e34cb10dda5_1692617905.jpeg" alt="" loading="lazy" src="https://prothoma.gumlet.io/productThumbs/2023/08/64e34cb10dda5_1692617905.jpeg?w=160&amp;dpr=1.0" class="gm-loaded gm-observing gm-observing-cb">
+                                          </div>
+                                          <div class="product-right">
+                                             <h2>কিশোর আলো: ৬ মাসের সাবস্ক্রিপশন (প্রিন্ট ভার্সন)</h2>
+                                             <div class="size">
+                                                <span class="size-info"><strong>লেখক :</strong> আনিসুল হক</span>
+                                             </div>
+                                             <div class="qn-mobile">
+                                                <div class="add-cart">
+                                                   <span class="item-amount cartitem">
+                                                   <input type="hidden" name="rowid" value="51f0214e69d0be4e15270e5e2ae75c53">
+                                                   <input type="button" class="minus-cart" name="minus">
+                                                   <input type="text" placeholder="1" class="form-control cartInputQuantity" name="quantity" value="1" min="1">
+                                                   <input type="button" class="plus-cart" name="plus">
+                                                   </span>
+                                                </div>
+                                             </div>
+                                             <div class="os-offer-mobile">
+                                                <div class="offer"><span class="tk-sign">৳</span><span class="ofr-price">৩০০.০০</span></div>
+                                                <div class="total-price"><span class="tk-sign">৳</span><span class="rg-price">৩০০.০০</span></div>
+                                             </div>
+                                             <div class="bottom-block">
+                                                <span class="save"><a href="https://www.prothoma.com/book/add-to-wishlist/35289" class="addToWishListButton">পছন্দের তালিকায় রাখুন</a></span>
+                                                <span class="remove"><a href="javascript:void(0);" onclick="removeCart('51f0214e69d0be4e15270e5e2ae75c53');">বাদ দিন</a></span>
+                                             </div>
+                                          </div>
+                                          <div class="cr_check_block">
+                                             <input class="cart-check" name="cart-check" value="51f0214e69d0be4e15270e5e2ae75c53" id="qc_check_51f0214e69d0be4e15270e5e2ae75c53" type="checkbox" checked="">
+                                             <label for="qc_check_51f0214e69d0be4e15270e5e2ae75c53"></label>
+                                          </div>
+                                       </div>
+                                    </td>
+                                    <td>
+                                       <div class="quantity-block">
+                                          <div class="add-cart">
+                                             <span class="item-amount cartitem">
+                                             <input type="hidden" name="rowid" value="51f0214e69d0be4e15270e5e2ae75c53">
+                                             <input type="button" class="minus-cart" name="minus">
+                                             <input type="text" placeholder="1" class="form-control cartInputQuantity" name="quantity" value="1" min="1">
+                                             <input type="button" class="plus-cart" name="plus">
+                                             </span>
+                                          </div>
+                                       </div>
+                                    </td>
+                                    <td class="offer-col">
+                                       <div class="ofer-rt-ct">
+                                          <div class="offer"><span class="tk-sign">৳</span><span class="ofr-price">৩০০.০০</span></div>
+                                          <div class="total-price"><span class="tk-sign">৳</span><span class="rg-price">৩০০.০০</span></div>
+                                       </div>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td>
+                                       <div class="product-info-block">
+                                          <div class="product-thumb">
+                                             <img data-src="https://image.prothoma.com/bulkUpload/img/11170/1107077429b582f71c3bca1ab7b07c2d35f9f678e72b22bbd130b3dec56fe2f4e06e9_250.jpg" alt="" loading="lazy" src="https://prothoma.gumlet.io/bulkUpload/img/11170/1107077429b582f71c3bca1ab7b07c2d35f9f678e72b22bbd130b3dec56fe2f4e06e9_250.jpg?w=160&amp;dpr=1.0" class="gm-loaded gm-observing gm-observing-cb">
+                                          </div>
+                                          <div class="product-right">
+                                             <h2>মনে রেখো, প্রিয় পাতা</h2>
+                                             <div class="size">
+                                                <span class="size-info"><strong>লেখক :</strong> আনিসুল হক, </span>
+                                             </div>
+                                             <div class="qn-mobile">
+                                                <div class="add-cart">
+                                                   <span class="item-amount cartitem">
+                                                   <input type="hidden" name="rowid" value="d071d8c345b347362bd822f36d9deb15">
+                                                   <input type="button" class="minus-cart" name="minus">
+                                                   <input type="text" placeholder="1" class="form-control cartInputQuantity" name="quantity" value="3" min="1">
+                                                   <input type="button" class="plus-cart" name="plus">
+                                                   </span>
+                                                </div>
+                                             </div>
+                                             <div class="os-offer-mobile">
+                                                <div class="offer"><span class="tk-sign">৳</span><span class="ofr-price">৬৫.৬০</span></div>
+                                                <div class="total-price"><span class="tk-sign">৳</span><span class="rg-price">১৯৬.৮০</span></div>
+                                             </div>
+                                             <div class="bottom-block">
+                                                <span class="save"><a href="https://www.prothoma.com/book/add-to-wishlist/34312" class="addToWishListButton">পছন্দের তালিকায় রাখুন</a></span>
+                                                <span class="remove"><a href="javascript:void(0);" onclick="removeCart('d071d8c345b347362bd822f36d9deb15');">বাদ দিন</a></span>
+                                             </div>
+                                          </div>
+                                          <div class="cr_check_block">
+                                             <input class="cart-check" name="cart-check" value="d071d8c345b347362bd822f36d9deb15" id="qc_check_d071d8c345b347362bd822f36d9deb15" type="checkbox" checked="">
+                                             <label for="qc_check_d071d8c345b347362bd822f36d9deb15"></label>
+                                          </div>
+                                       </div>
+                                    </td>
+                                    <td>
+                                       <div class="quantity-block">
+                                          <div class="add-cart">
+                                             <span class="item-amount cartitem">
+                                             <input type="hidden" name="rowid" value="d071d8c345b347362bd822f36d9deb15">
+                                             <input type="button" class="minus-cart" name="minus">
+                                             <input type="text" placeholder="1" class="form-control cartInputQuantity" name="quantity" value="3" min="1">
+                                             <input type="button" class="plus-cart" name="plus">
+                                             </span>
+                                          </div>
+                                       </div>
+                                    </td>
+                                    <td class="offer-col">
+                                       <div class="ofer-rt-ct">
+                                          <div class="offer"><span class="tk-sign">৳</span><span class="ofr-price">৮০.০০</span></div>
+                                          <div class="total-price"><span class="tk-sign">৳</span><span class="rg-price">১৯৬.৮০</span></div>
+                                       </div>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td>
+                                       <div class="product-info-block">
+                                          <div class="product-thumb">
+                                             <img data-src="https://image.prothoma.com/bulkUpload/img/7687/75878d285bd401c1f673e5a772ccf9010e5b2d75b793f08b770312f683e6f905a8c0_250.jpg" alt="" loading="lazy" src="https://prothoma.gumlet.io/bulkUpload/img/7687/75878d285bd401c1f673e5a772ccf9010e5b2d75b793f08b770312f683e6f905a8c0_250.jpg?w=160&amp;dpr=1.0" class="gm-loaded gm-observing gm-observing-cb">
+                                          </div>
+                                          <div class="product-right">
+                                             <h2>ভাই বোনের বিশ্বকাপ</h2>
+                                             <div class="size">
+                                                <span class="size-info"><strong>লেখক :</strong> আনিসুল হক, </span>
+                                             </div>
+                                             <div class="qn-mobile">
+                                                <div class="add-cart">
+                                                   <span class="item-amount cartitem">
+                                                   <input type="hidden" name="rowid" value="78655d25526059a5d9eab2a75cab1a2e">
+                                                   <input type="button" class="minus-cart" name="minus">
+                                                   <input type="text" placeholder="1" class="form-control cartInputQuantity" name="quantity" value="1" min="1">
+                                                   <input type="button" class="plus-cart" name="plus">
+                                                   </span>
+                                                </div>
+                                             </div>
+                                             <div class="os-offer-mobile">
+                                                <div class="offer"><span class="tk-sign">৳</span><span class="ofr-price">৪৮.০০</span></div>
+                                                <div class="total-price"><span class="tk-sign">৳</span><span class="rg-price">৪৮.০০</span></div>
+                                             </div>
+                                             <div class="bottom-block">
+                                                <span class="save"><a href="https://www.prothoma.com/book/add-to-wishlist/34228" class="addToWishListButton">পছন্দের তালিকায় রাখুন</a></span>
+                                                <span class="remove"><a href="javascript:void(0);" onclick="removeCart('78655d25526059a5d9eab2a75cab1a2e');">বাদ দিন</a></span>
+                                             </div>
+                                          </div>
+                                          <div class="cr_check_block">
+                                             <input class="cart-check" name="cart-check" value="78655d25526059a5d9eab2a75cab1a2e" id="qc_check_78655d25526059a5d9eab2a75cab1a2e" type="checkbox" checked="">
+                                             <label for="qc_check_78655d25526059a5d9eab2a75cab1a2e"></label>
+                                          </div>
+                                       </div>
+                                    </td>
+                                    <td>
+                                       <div class="quantity-block">
+                                          <div class="add-cart">
+                                             <span class="item-amount cartitem">
+                                             <input type="hidden" name="rowid" value="78655d25526059a5d9eab2a75cab1a2e">
+                                             <input type="button" class="minus-cart" name="minus">
+                                             <input type="text" placeholder="1" class="form-control cartInputQuantity" name="quantity" value="1" min="1">
+                                             <input type="button" class="plus-cart" name="plus">
+                                             </span>
+                                          </div>
+                                       </div>
+                                    </td>
+                                    <td class="offer-col">
+                                       <div class="ofer-rt-ct">
+                                          <div class="offer"><span class="tk-sign">৳</span><span class="ofr-price">৬০.০০</span></div>
+                                          <div class="total-price"><span class="tk-sign">৳</span><span class="rg-price">৪৮.০০</span></div>
+                                       </div>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="3" class="spt-details">
+                                       <div class="cart-pr-bottom">
+                                          <div class="book-total">
+                                             <h3>সর্বমোট (৪ টি পণ্য):</h3>
+                                             <span>৳</span>
+                                             <strong>
+                                             ৯৮৭.৬০ </strong>
+                                          </div>
+                                          <div class="book-savings">
+                                             <h4><i>মোট সাশ্রয়:</i></h4>
+                                             <span>৳</span><strong> ১৫২.৪০ </strong>
+                                          </div>
+                                       </div>
+                                    </td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </form>
+                     <div class="cart-bottom-white-setion desktop-row">
+                        <div class="cbs-rt">
+                           <div class="cbs-btn"><a class="" href="https://www.prothoma.com/gift-checkout">উপহার দিন</a></div>
+                           <div class="cbs-btn"><a class="order-btn-ct " href="https://www.prothoma.com/checkout">অর্ডার দিন</a></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-4 col-md-3 cart-info-wp" style="position: relative; overflow: visible; box-sizing: border-box; min-height: 1px;">
+                     <div class="cart-os theiaStickySidebar" style="padding-top: 0px; padding-bottom: 0px; position: static; transform: none; top: 0px; left: 1349px;">
+                        <div class="os-tittle">অর্ডার সারসংক্ষেপ</div>
+                        <div class="os-cupon">
+                           <div class="os-cupon-label">কুপন কোড প্রয়োগ করুন</div>
+                           <div class="os-cupon-input promoerror">
+                              <input type="text" name="code" id="promocode" class="form-control os-cp-field" placeholder="কুপন কোড বসান" value="">
+                              <input type="submit" class="btn btn-primary os-cupon-submit promobutton" name="apply" value="প্রয়োগ করুন">
+                              <span class="couponerror"></span>
+                           </div>
+                           <div class="os-check-block">
+                              <div class="qc_checkbox">
+                                 <input type="checkbox" name="gift_wrapper" id="gift_wrapper" value="1">
+                                 <label for="gift_wrapper">উপহারের মোড়ক</label>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="os-cart-bottom-block">
+                           <div class="sub-total-block">
+                              <ul>
+                                 <li>মোট :
+                                    <span class="pull-right">
+                                    ৯৮৭.৬০ টাকা </span>
+                                 </li>
+                                 <li>পাঠানোর খরচ :
+                                    <span class="pull-right">
+                                    ৫০.০০ টাকা </span>
+                                 </li>
+                                 <li id="giftWrapperLine" style="display: none;">উপহারের মোড়ক:<span class="pull-right"> ২০.০০ টাকা </span></li>
+                                 <li class="total-amount">সর্বমোট পরিশোধযোগ্য <span class="pull-right" id="fullSubtotalWithAll"> ১,০৩৭.৬০ টাকা </span></li>
+                              </ul>
+                           </div>
+                           <div class="cart-pr-bottom">
+                              <div class="book-savings">
+                                 <h4><i>সর্বমোট সাশ্রয়:</i></h4>
+                                 <span>৳</span><strong> ১৫২.৪০ </strong>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="resize-sensor" style="position: absolute; inset: 0px; overflow: hidden; z-index: -1; visibility: hidden;">
+                           <div class="resize-sensor-expand" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden; z-index: -1; visibility: hidden;">
+                              <div style="position: absolute; left: 0px; top: 0px; transition: all 0s ease 0s; width: 715px; height: 419px;"></div>
+                           </div>
+                           <div class="resize-sensor-shrink" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden; z-index: -1; visibility: hidden;">
+                              <div style="position: absolute; left: 0; top: 0; transition: 0s; width: 200%; height: 200%"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row mobile-row">
+                  <div class="col-xs-12">
+                     <div class="cart-bottom-white-setion">
+                        <div class="cbs-rt">
+                           <div class="cbs-btn"><a class="" href="https://www.prothoma.com/gift-checkout">উপহার দিন</a></div>
+                           <div class="cbs-btn"><a class="order-btn-ct " href="https://www.prothoma.com/checkout">অর্ডার দিন</a></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         
+
+        <div class="footer">
+          <div class="footer_top">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="newlater_wrapper">
+                    <div class="ns_content">
+                      <div class="ns_tittle"><h2>নিউজলেটার সাইন আপ</h2></div>
+                      <div class="ns_single">
+                        <div class="subscribe">
+                          <form id="subscription-form">
+                            <div class="form-group">
+                              <div class="input-group">
+                                <input
+                                  type="email"
+                                  class="form-control subscription-field"
+                                  placeholder="আপনার ই-মেইল আইডি লিখুন"
+                                  name="email"
+                                  id="newsLetterEmail"
+                                />
+                                <input
+                                  type="submit"
+                                  name="submit"
+                                  class="btn btn-primary subscribe"
+                                  value="সাবস্ক্রাইব করুন"
+                                />
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer_mid">
+            <div class="container">
+              <div class="row quick-link">
+                <div class="col-xs-12 col-sm-4 ftr_about">
+                  <h3>প্রথমা ডট কম</h3>
+                  <p>
+                    অনলাইন বইয়ের বাজার prothoma.com মিডিয়াস্টার লিমিটেডের
+                    (প্রথম আলো) একটি অঙ্গপ্রতিষ্ঠান। নানা রুচি ও স্বাদের পাঠকের
+                    বইয়ের চাহিদা সহজে ও পরিপূর্ণভাবে মেটানোই আমাদের লক্ষ্য।
+                    পাঠকের আকাঙ্ক্ষিত যেকোনো বই এখান থেকে সুলভ মূল্যে সরবরাহ করা
+                    হয়। দেশের যেকোনো প্রান্তের পাঠকের কাছে সে বই পৌঁছে দেওয়া হয়
+                    দ্রুততম সময়ে। আমাদের উদ্দেশ্য বইয়ের প্রতি পাঠকের আবেগ ও
+                    ভালোবাসাকে সর্বোচ্চ গুরুত্ব দেওয়া। তাই পাঠকদের জন্য রয়েছে
+                    বিশেষ অফার ও ছাড়সহ নানা সুবিধা। আপনাকে স্বাগতম।
+                  </p>
+                  <div class="ftr_single">
+                    <ul class="social-media">
+                      <li>
+                        <a
+                          href="https://www.facebook.com/ProthomaOnline"
+                          data-bg="../image.prothoma.com/socialImages/2021/02/601af75667f66_1612379990.jpg"
+                          >Facebook</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="http://www.twitter.com/"
+                          data-bg="../image.prothoma.com/socialImages/2021/02/601af76049878_1612380000.jpg"
+                          >Twitter</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="http://www.youtube.com/"
+                          data-bg="../image.prothoma.com/socialImages/2021/02/601af76915e96_1612380009.jpg"
+                          >YouTube</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-2">
+                  <h3>জরুরি লিংক</h3>
+                  <ul class="help-list">
+                    <li><a href="category.html">বিষয়</a></li>
+                    <li><a href="author.html">লেখক</a></li>
+                    <li><a href="publisher.html">প্রকাশক</a></li>
+                    <li><a href="login.html">আমার অ্যাকাউন্ট</a></li>
+                    <li>
+                      <a
+                        href="page/%e0%a6%86%e0%a6%ae%e0%a6%be%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%b8%e0%a6%ae%e0%a7%8d%e0%a6%aa%e0%a6%b0%e0%a7%8d%e0%a6%95%e0%a7%87.html"
+                        >আমাদের সম্পর্কে</a
+                      >
+                    </li>
+                    <li><a href="contact-us.html">যোগাযোগ করুন</a></li>
+                  </ul>
+                </div>
+                <div class="col-xs-12 col-sm-3">
+                  <h3>যেকোনো সাহায্যে</h3>
+                  <ul class="help-list">
+                    <li>
+                      <a
+                        href="page/%e0%a6%95%e0%a7%80%e0%a6%ad%e0%a6%be%e0%a6%ac%e0%a7%87-%e0%a6%95%e0%a6%bf%e0%a6%a8%e0%a6%ac.html"
+                        >কীভাবে কিনব</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="page/%e0%a6%ac%e0%a7%8d%e0%a6%af%e0%a6%ac%e0%a6%b9%e0%a6%be%e0%a6%b0%e0%a7%87%e0%a6%b0-%e0%a6%b6%e0%a6%b0%e0%a7%8d%e0%a6%a4%e0%a6%be%e0%a6%ac%e0%a6%b2%e0%a6%bf.html"
+                        >ব্যবহারের শর্তাবলি</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="page/%e0%a6%9c%e0%a6%b0%e0%a7%81%e0%a6%b0%e0%a6%bf-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%b6%e0%a7%8d%e0%a6%a8%e0%a7%8b%e0%a6%a4%e0%a7%8d%e0%a6%a4%e0%a6%b0.html"
+                        >জরুরি প্রশ্নোত্তর</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="page/%e0%a6%97%e0%a7%8b%e0%a6%aa%e0%a6%a8%e0%a7%80%e0%a7%9f%e0%a6%a4%e0%a6%be-%e0%a6%a8%e0%a7%80%e0%a6%a4%e0%a6%bf.html"
+                        >গোপনীয়তা নীতি</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="page/%e0%a6%ac%e0%a6%bf%e0%a6%95%e0%a7%8d%e0%a6%b0%e0%a7%9f%e0%a7%87%e0%a6%b0-%e0%a6%b6%e0%a6%b0%e0%a7%8d%e0%a6%a4%e0%a6%be%e0%a6%ac%e0%a6%b2%e0%a6%bf.html"
+                        >বিক্রয়ের শর্তাবলি</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-xs-12 col-sm-3">
+                  <h3>যোগাযোগ</h3>
+                  <div class="ftr_address">
+                    <p>
+                      প্রগতি ইনস্যুরেন্স ভবন, ২০–২১ কারওয়ান বাজার, ঢাকা–১২১৫
+                    </p>
+                  </div>
+                  <div class="top-left">
+                    <p>
+                      <a href="mailto:info@prothoma.com">info@prothoma.com</a>
+                    </p>
+                  </div>
+                  <div class="top-right">
+                    <p>
+                      <a href="tel:01730000619, 01988337733"
+                        >01730000619, 01988337733</a
+                      >
+                    </p>
+                  </div>
+                  <h3>পরিশোধের অনলাইন মাধ্যম</h3>
+                  <div class="pay_card">
+                    <img src="images/frontend/payment_bg.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer_bottom">
+            <div class="container">
+              <div class="col-xs-12">
+                <div class="ftr_single_btm">
+                  <p>স্বত্ব: prothoma.com। সব স্বত্ব সংরক্ষিত</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade modal-vcenter" id="quick-view" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true"></span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-xs-12 col-md-6">
+                  <div class="detail-slider" id="productSlider"></div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                  <div class="one-four-block">
+                    <div class="product-title">
+                      <h1 id="productTitle"></h1>
+                      <p style="display: none" id="productID"></p>
+                      <p></p>
+                      <h3 id="productWriter"></h3>
+                      <h4 id="productCategory"></h4>
+                      <div class="rating_top_bar">
+                        <i class="fa fa-star star5"></i
+                        ><span id="productRating"></span>
+                      </div>
+                    </div>
+                    <div class="product-price" id="priceSection"></div>
+                    <div class="right-bottom">
+                      <div class="short_desc">
+                        <h2>বইয়ের সম্পর্কে:</h2>
+                        <p id="productAbout"></p>
+                        <h2>ফিচার:</h2>
+                        <div id="featureSection"></div>
+                      </div>
+                      <div class="add-cart">
+                        <span class="item-amount">
+                          <input type="button" name="minus" class="minus" />
+                          <input
+                            type="text"
+                            name="quantity"
+                            id="modalCartQuantity"
+                            value="1"
+                            min="1"
+                            class="form-control"
+                            placeholder="1"
+                          />
+                          <input type="button" name="plus" class="plus" />
+                        </span>
+                        <a href="#" class="btn btn-primary" id="modalBuyURL"
+                          >কার্টে যোগ করুন</a
+                        >
+                      </div>
+                      <div class="modalPaddingBottom">
+                        <span class="pull-left stock" id="productStock"></span>
+                        <div id="modalWishListBlock">
+                          <a
+                            href="#"
+                            class="pull-right wishlist"
+                            id="modalWishListURL"
+                            >পছন্দের তালিকায় রাখুন</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="side_menu_block" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true"></span>
+            </button>
+            <div class="modal-body">
+              <div class="side_bar_mneu">
+                <ul>
+                  <li id="nav_menu_60">
+                    <a href="publisher/prothoma.html" class="no-icon-sidebar"
+                      >প্রথমা প্রকাশন</a
+                    >
+                  </li>
+                  <li class="dropdown">
+                    <a
+                      href="author.html"
+                      class="dropdown-toggle"
+                      data-toggle="dropdown"
+                      >লেখক</a
+                    >
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="author/akbar-ali-khan.html" class=""
+                          >আকবর আলি খান</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="author/%e0%a6%86%e0%a6%a8%e0%a6%bf%e0%a6%b8%e0%a7%81%e0%a6%9c%e0%a7%8d%e0%a6%9c%e0%a6%be%e0%a6%ae%e0%a6%be%e0%a6%a8.html"
+                          class=""
+                          >আনিসুজ্জামান</a
+                        >
+                      </li>
+                      <li>
+                        <a href="author/anisul-haque.html" class=""
+                          >আনিসুল হক</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="author/%e0%a6%86%e0%a6%ac%e0%a7%81%e0%a6%b2-%e0%a6%ae%e0%a6%a8%e0%a6%b8%e0%a7%81%e0%a6%b0-%e0%a6%86%e0%a6%b9%e0%a6%ae%e0%a6%a6.html"
+                          class=""
+                          >আবুল মনসুর আহমদ</a
+                        >
+                      </li>
+                      <li>
+                        <a href="author/ali-riaz-1.html" class="">আলী রীয়াজ</a>
+                      </li>
+                      <li>
+                        <a href="author/asif-nazrul.html" class=""
+                          >আসিফ নজরুল</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="author/%e0%a6%97%e0%a7%8b%e0%a6%b2%e0%a6%be%e0%a6%ae-%e0%a6%ae%e0%a7%81%e0%a6%b0%e0%a6%b6%e0%a6%bf%e0%a6%a6.html"
+                          class=""
+                          >গোলাম মুরশিদ</a
+                        >
+                      </li>
+                      <li>
+                        <a href="author/matiur-rahman.html" class=""
+                          >মতিউর রহমান</a
+                        >
+                      </li>
+                      <li>
+                        <a href="author/mohiuddin-ahmmod.html" class=""
+                          >মহিউদ্দিন আহমদ</a
+                        >
+                      </li>
+                      <li>
+                        <a href="author.html" class="s_more">আরো দেখুন</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a
+                      href="publisher.html"
+                      class="dropdown-toggle"
+                      data-toggle="dropdown"
+                      >প্রকাশক</a
+                    >
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a
+                          href="publisher/%e0%a6%85%e0%a6%a8%e0%a6%a8%e0%a7%8d%e0%a6%af%e0%a6%be-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%95%e0%a6%be%e0%a6%b6%e0%a6%a8%e0%a7%80.html"
+                          class=""
+                          >অনন্যা</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="publisher/%e0%a6%85%e0%a6%a8%e0%a6%bf%e0%a6%a8%e0%a7%8d%e0%a6%a6%e0%a7%8d%e0%a6%af-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%95%e0%a6%be%e0%a6%b6.html"
+                          class=""
+                          >অনিন্দ্য প্রকাশ</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="publisher/%e0%a6%85%e0%a6%a8%e0%a7%81%e0%a6%aa%e0%a6%ae-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%95%e0%a6%be%e0%a6%b6%e0%a6%a8%e0%a7%80.html"
+                          class=""
+                          >অনুপম প্রকাশনী</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="publisher/%e0%a6%85%e0%a6%a8%e0%a7%8d%e0%a6%ac%e0%a7%87%e0%a6%b7%e0%a6%be-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%95%e0%a6%be%e0%a6%b6%e0%a6%a8.html"
+                          class=""
+                          >অন্বেষা প্রকাশন</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="publisher/%e0%a6%85%e0%a6%a8%e0%a7%8d%e0%a6%af%e0%a6%a7%e0%a6%be%e0%a6%b0%e0%a6%be.html"
+                          class=""
+                          >অন্যধারা</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="publisher/%e0%a6%85%e0%a6%a8%e0%a7%8d%e0%a6%af%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%95%e0%a6%be%e0%a6%b6.html"
+                          class=""
+                          >অন্যপ্রকাশ</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="publisher/%e0%a6%85%e0%a6%ac%e0%a6%b8%e0%a6%b0-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%95%e0%a6%be%e0%a6%b6%e0%a6%a8.html"
+                          class=""
+                          >অবসর-প্রকাশন</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="publisher/%e0%a6%86%e0%a6%a8%e0%a6%a8%e0%a7%8d%e0%a6%a6-%e0%a6%aa%e0%a6%be%e0%a6%ac%e0%a6%b2%e0%a6%bf%e0%a6%b6%e0%a6%be%e0%a6%b0%e0%a7%8d%e0%a6%b8-(%e0%a6%ad%e0%a6%be%e0%a6%b0%e0%a6%a4).html"
+                          class=""
+                          >আনন্দ পাবলিশার্স (ভারত)</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="publisher/%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%a1%e0%a6%b0%e0%a7%8d%e0%a6%a8-%e0%a6%aa%e0%a6%be%e0%a6%ac%e0%a6%b2%e0%a6%bf%e0%a6%95%e0%a7%87%e0%a6%b6%e0%a6%a8.html"
+                          class=""
+                          >অ্যাডর্ন পাবলিকেশন</a
+                        >
+                      </li>
+                      <li>
+                        <a href="publisher.html" class="s_more">আরো দেখুন</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a
+                      href="category.html"
+                      class="dropdown-toggle"
+                      data-toggle="dropdown"
+                      >বিষয়</a
+                    >
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="category/newbooks.html" class="">নতুন বই</a>
+                      </li>
+                      <li>
+                        <a
+                          href="category/%e0%a6%89%e0%a6%aa%e0%a6%a8%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%b8-%e0%a6%9b%e0%a7%8b%e0%a6%9f%e0%a6%97%e0%a6%b2%e0%a7%8d%e0%a6%aa.html"
+                          class=""
+                          >কথাসাহিত্য</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="category/%e0%a6%87%e0%a6%a4%e0%a6%bf%e0%a6%b9%e0%a6%be%e0%a6%b8-%e0%a6%93-%e0%a6%90%e0%a6%a4%e0%a6%bf%e0%a6%b9%e0%a7%8d%e0%a6%af.html"
+                          class=""
+                          >ইতিহাস ও ঐতিহ্য</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="category/%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%ac%e0%a6%a8%e0%a7%8d%e0%a6%a7-%e0%a6%97%e0%a6%ac%e0%a7%87%e0%a6%b7%e0%a6%a3%e0%a6%be-%e0%a6%93-%e0%a6%85%e0%a6%a8%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%a8%e0%a7%8d%e0%a6%af.html"
+                          class=""
+                          >প্রবন্ধ, গবেষণা ও অন্যান্য</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="category/%e0%a6%9c%e0%a7%80%e0%a6%ac%e0%a6%a8%e0%a7%80.html"
+                          class=""
+                          >জীবনী/আত্মকথা/স্মৃতিকথা</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="category/%e0%a6%b8%e0%a6%be%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a6%be%e0%a7%8e%e0%a6%95%e0%a6%be%e0%a6%b0.html"
+                          class=""
+                          >সাক্ষাৎকার</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="category/%e0%a6%86%e0%a6%a4%e0%a7%8d%e0%a6%ae-%e0%a6%89%e0%a6%a8%e0%a7%8d%e0%a6%a8%e0%a6%af%e0%a6%bc%e0%a6%a8.html"
+                          class=""
+                          >আত্মোন্নয়ন</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="category/%e0%a6%aa%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a7%87%e0%a6%9c.html"
+                          class=""
+                          >প্যাকেজ</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="category/%e0%a6%ac%e0%a6%bf%e0%a6%9c%e0%a7%8d%e0%a6%9e%e0%a6%be%e0%a6%a8-%e0%a6%97%e0%a6%a3%e0%a6%bf%e0%a6%a4.html"
+                          class=""
+                          >গণিত, বিজ্ঞান ও প্রযুক্তি</a
+                        >
+                      </li>
+                      <li>
+                        <a href="category.html" class="s_more">আরো দেখুন</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="nav_menu_70">
+                    <a href="login.html" class="no-icon-sidebar">মুক্তিযুদ্ধ</a>
+                  </li>
+                  <li id="nav_menu_74">
+                    <a
+                      href="category/%e0%a6%b0%e0%a6%be%e0%a6%9c%e0%a6%a8%e0%a7%80%e0%a6%a4%e0%a6%bf.html"
+                      class="no-icon-sidebar"
+                      >রাজনীতি</a
+                    >
+                  </li>
+                  <li id="nav_menu_86">
+                    <a href="category/economy.html" class="no-icon-sidebar"
+                      >অর্থনীতি</a
+                    >
+                  </li>
+                  <li id="nav_menu_81">
+                    <a href="category/dhorrmo.html" class="no-icon-sidebar"
+                      >ধর্ম</a
+                    >
+                  </li>
+                  <li id="nav_menu_66">
+                    <a
+                      href="category/%e0%a6%ae%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%97%e0%a6%be%e0%a6%9c%e0%a6%bf%e0%a6%a8.html"
+                      class="no-icon-sidebar"
+                      >ম্যাগাজিন</a
+                    >
+                  </li>
+                  <li id="nav_menu_95">
+                    <a href="category/boimela-2023.html" class="no-icon-sidebar"
+                      >বইমেলা ২০২৩</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="https://www.prothoma.com/js/frontend/jquery.min.js"></script>
+      <script src="https://www.prothoma.com/js/frontend/bootstrap.min.js"></script>
+      <script src="https://www.prothoma.com/js/frontend/jquery.menu-aim.js"></script>
+      <script src="https://www.prothoma.com/js/frontend/owl.carousel.min.js"></script>
+      <script src="https://www.prothoma.com/js/frontend/masonry.pkgd.js"></script>
+      <script src="https://www.prothoma.com/js/frontend/jquery.selectbox-0.1.3.min.js"></script>
+      <script src="https://www.prothoma.com/js/frontend/icheck.js"></script>
+      <script src="https://www.prothoma.com/js/frontend/slick.js"></script>
+      <script src="https://www.prothoma.com/js/frontend/grids.js"></script>
+      <script src="https://www.prothoma.com/js/frontend/jquery.zoom.min.js"></script>
+      <script src="https://www.prothoma.com/js/frontend/venobox.min.js"></script>
+      <script src="https://www.prothoma.com/js/frontend/bootstrap-datepicker.min.js"></script>
+      <script src="https://www.prothoma.com/js/frontend/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script type="text/javascript" src="https://www.prothoma.com/js/frontend/chosen.jquery.js"></script>
+      <script src="https://www.prothoma.com/js/frontend/custom.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+      <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+      <script type="text/javascript" src="https://www.prothoma.com/js/frontend/ResizeSensor.min.js"></script>
+      <script type="text/javascript" src="https://www.prothoma.com/js/frontend/theia-sticky-sidebar.js"></script>
+      <script>
+          const Toast = Swal.mixin({
+              toast: true,
+              position: 'top-end',
+              showConfirmButton: false,
+              timer: 3500,
+              timerProgressBar: true,
+              didOpen: (toast) => {
+                  toast.addEventListener('mouseenter', Swal.stopTimer)
+                  toast.addEventListener('mouseleave', Swal.resumeTimer)
+              }
+          });
+          
+          
+          $('#subscription-form input[name="submit"]').on('click', function(e){
+              e.preventDefault();
+              let email = $('#newsLetterEmail').val();
+              if (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(email)) {
+                  $.ajax({
+                      url:"https://www.prothoma.com/newsletter/store",
+                      method:"POST",
+                      data:{_token: 'H8YrzMhGLrLdFebzTSE5oPMjloxnHVIpPuhg2tPz', email: email},
+                      success:function(data) {
+                          $('#newsLetterEmail').val('');
+                          Toast.fire({
+                              icon: 'success',
+                              title: data
+                          });
+                      },
+                      error: function (data) {
+                          console.log(data);
+                      }
+                  });
+              } else {
+                  alert("You have entered an invalid email address!");
+              }
+          });
+      
+          $(document).on('click', '.plus', function (e) {
+              let val = parseInt(jQuery(this).prev('input').val());
+              $(this).prev('input').val(val + 1);
+          });
+      
+          $(document).on('click', '.minus', function (e) {
+              let val = parseInt(jQuery(this).next('input').val());
+              if (val !== 1) {
+                  $(this).next('input').val(val - 1);
+              }
+          });
+      
+          $(document).on('click', '#modalBuyURL', function (e) {
+              e.preventDefault();
+              let product = $("#productID").html();
+              let quantity = $('#modalCartQuantity').val();
+              $.ajax({
+                  url:"https://www.prothoma.com/ajax/card/add",
+                  method:"POST",
+                  data:{_token: 'H8YrzMhGLrLdFebzTSE5oPMjloxnHVIpPuhg2tPz', product: product, quantity: quantity},
+                  success:function(data) {
+                      $(".dropdown.shopping-bag.layoutcart").html($("<div/>").html(data).text());
+                      Toast.fire({
+                          icon: 'success',
+                          title: 'পণ্যটি সফলভাবে কার্টে যোগ হয়েছে'
+                      });
+                  },
+                  error: function (data) {
+                      Toast.fire({
+                          icon: 'error',
+                          title: data.responseJSON.error
+                      });
+                  }
+              });
+          });
+      
+          $(document).on('click', '.addToWishListButton', function (e) {
+              e.preventDefault();
+              let auth = ""
+              if (auth) {
+                  let url = $(this).attr('href');
+                  let element = $(this);
+                  $.ajax({
+                      url:url,
+                      method:"GET",
+                      success:function(data) {
+                          element.attr('href', data[0]);
+                          element.removeClass('addToWishListButton').addClass('wishlisted');
+                          if (element.text() != '') {
+                              element.text("পছন্দের বই");
+                          }
+                          if (element.parent('li.wish_block').length) {
+                              element.parent().removeClass('wish_block').addClass('wishlistedBlock');
+                          }
+                          if (element.parent('span.save').length) {
+                              element.parent().removeClass('save').addClass('savedAlready');
+                          }
+                          $('#wishListCountAjax').html(data[1]);
+                          Toast.fire({
+                              icon: 'success',
+                              title: 'পণ্যটি সফল ভাবে পছন্দের তালিকায় যোগ হয়েছে'
+                          });
+                      },
+                      error: function (data) {
+                          console.log('error');
+                      }
+                  });
+              } else {
+                  Toast.fire({
+                      icon: 'error',
+                      title: 'পছন্দের তালিকায় যোগ করতে আপনাকে অবশ্যই লগইন করতে হবে।'
+                  });
+              }
+          });
+      
+          $(document).on('click', '#modalWishListBlock a.wishlist', function (e) {
+              e.preventDefault();
+              let auth = ""
+              if (auth) {
+                  let url = $(this).attr('href');
+                  let element = $(this);
+                  $.ajax({
+                      url:url,
+                      method:"GET",
+                      success:function(data) {
+                          element.attr('href', data[0]);
+                          element.removeClass('wishlist').addClass('wishlisted');
+                          if (element.text() != '') {
+                              element.text("পছন্দের বই");
+                          }
+                          $('#wishListCountAjax').html(data[1]);
+                          Toast.fire({
+                              icon: 'success',
+                              title: 'পণ্যটি সফল ভাবে পছন্দের তালিকায় যোগ হয়েছে'
+                          });
+                      },
+                      error: function (data) {
+                          console.log('error');
+                      }
+                  });
+              } else {
+                  Toast.fire({
+                      icon: 'error',
+                      title: 'পছন্দের তালিকায় যোগ করতে আপনাকে অবশ্যই লগইন করতে হবে।'
+                  });
+              }
+          });
+      
+          $(document).on('click', '.wishlisted', function (e) {
+              e.preventDefault();
+              let auth = ""
+              if (auth) {
+                  if (confirm("Are you sure you want to remove?")) {
+                      let url = $(this).attr('href');
+                      let element = $(this);
+                      $.ajax({
+                          url:url,
+                          method:"GET",
+                          success:function(data) {
+                              element.attr('href', data[0]);
+                              element.removeClass('wishlisted');
+                              if (element.parent('div#modalWishListBlock').length) {
+                                  element.addClass('wishlist');
+                              } else {
+                                  element.addClass('addToWishListButton');
+                              }
+                              if (element.text() != '') {
+                                  element.text("পছন্দের তালিকায় রাখুন");
+                              }
+                              if (element.parent('li.wishlistedBlock').length) {
+                                  element.parent().removeClass('wishlistedBlock').addClass('wish_block');
+                              }
+                              if (element.parent('span.savedAlready').length) {
+                                  element.parent().removeClass('savedAlready').addClass('save');
+                              }
+                              $('#wishListCountAjax').html(data[1]);
+                              Toast.fire({
+                                  icon: 'success',
+                                  title: 'পণ্যটি সফল ভাবে পছন্দের তালিকা থেকে বাদ দেওয়া হয়েছে'
+                              });
+                          },
+                          error: function (data) {
+                              console.log('error');
+                          }
+                      });
+                  }
+              } else {
+                  Toast.fire({
+                      icon: 'error',
+                      title: 'পছন্দের তালিকায় যোগ করতে আপনাকে অবশ্যই লগইন করতে হবে।'
+                  });
+              }
+          });
+      
+          $(document).on('click', '#hoverBuyURL', function (e) {
+              e.preventDefault();
+              let product = $(this).data('id');
+              let quantity = 1;
+              $.ajax({
+                  url:"https://www.prothoma.com/ajax/card/add",
+                  method:"POST",
+                  data:{_token: 'H8YrzMhGLrLdFebzTSE5oPMjloxnHVIpPuhg2tPz', product: product, quantity: quantity},
+                  success:function(data) {
+                      $(".dropdown.shopping-bag.layoutcart").html($("<div/>").html(data).text());
+                      Toast.fire({
+                          icon: 'success',
+                          title: 'পণ্যটি সফলভাবে কার্টে যোগ হয়েছে'
+                      });
+                  },
+                  error: function (data) {
+                      Toast.fire({
+                          icon: 'error',
+                          title: data.responseJSON.error
+                      });
+                  }
+              });
+          });
+      
+          function removeCart(rowId) {
+              if (confirm("Are you sure?")) {
+                  $('.table-responsive').append('<div class="loader_block" id="loader_block_cart"><div class="loader-container"><div class="loader-spinner"></div></div></div>');
+                  let wrapperExists = $('#gift_wrapper');
+                  let wrapperChecked = 0;
+                  if (wrapperExists.length == 1) {
+                      if ($('#gift_wrapper').prop('checked') == true) {
+                          wrapperChecked = 1;
+                      }
+                  }
+      
+                  $.ajax({
+                      type: "POST",
+                      data: {_token: 'H8YrzMhGLrLdFebzTSE5oPMjloxnHVIpPuhg2tPz', rowId: rowId, wrapperChecked: wrapperChecked},
+                      url: "https://www.prothoma.com/carts/removecartajax",
+                      success: function (response) {
+                          //location.reload(true);
+                          let obj = response;
+                          $('#loader_block_cart').remove();
+                          $(".cartupdate").html($("<div/>").html(obj.cart).text());
+                          $(".dropdown.shopping-bag.layoutcart").html($("<div/>").html(obj.layout).text());
+                      }
+                  });
+              }
+          }
+      
+          $(document).on('click', '.resendOTP', function (e) {
+              e.preventDefault();
+              let button = $(this);
+              button.prop('disabled', true);
+              $('.otp_single').append('<div class="loader_block" id="loader_block"><div class="loader-container"><div class="loader-spinner"></div></div></div>');
+              $.ajax({
+                  url:"https://www.prothoma.com/resendotp",
+                  method:"POST",
+                  data:{_token: 'H8YrzMhGLrLdFebzTSE5oPMjloxnHVIpPuhg2tPz'},
+                  success:function(data) {
+                      $('#loader_block').remove();
+                      $(".loginotperrorpopup").empty();
+                      Toast.fire({
+                          icon: 'success',
+                          title: 'আপনার ওটিপি পুনরায় পাঠানো হয়েছে'
+                      });
+                      sec = 60;
+                      countDown();
+                  },
+                  error: function (data) {
+                      if (data.status == 422) {
+                          $('#loader_block').remove();
+                          let errors = data.responseJSON;
+                          let finalerror = errors.errors;
+                          $(".loginotperrorpopup").empty();
+                          for (key in finalerror) {
+                              $('.loginotperrorpopup').append('<p style="color:red;">' + finalerror[key] + '</p>');
+                          }
+                      }
+                      button.prop('disabled', false);
+                  }
+              });
+          });
+      
+          function otpFunction(e) {
+              e.preventDefault();
+              let no_error = 1;
+              let txt_otp = $("#txt_otp").val();
+      
+              if (txt_otp == '') {
+                  $('#txt_otp').addClass('invalid_input');
+                  no_error = 0;
+              } else {
+                  $('#txt_otp').removeClass('invalid_input');
+              }
+      
+              if (no_error) {
+                  $('.otp_single').append('<div class="loader_block" id="loader_block"><div class="loader-container"><div class="loader-spinner"></div></div></div>');
+                  let form_data = new FormData($("#otpform")[0]);
+                  $.ajax({
+                      type: "POST",
+                      data: form_data,
+                      processData: false,
+                      contentType: false,
+                      url: "https://www.prothoma.com/phoneloginotp",
+                      success: function (response) {
+                          if (response == 'ok') {
+                              // console.log(response);
+                              location.reload();
+                          } else {
+                              window.location.href = response.url;
+                              // console.log(response);
+                          }
+                      },
+                      error: function (data) {
+                          if (data.status == 422) {
+                              $('#loader_block').remove();
+                              let errors = data.responseJSON;
+                              let finalerror = errors.errors;
+                              $(".loginotperrorpopup").empty();
+                              for (key in finalerror) {
+                                  $('.loginotperrorpopup').append('<p style="color:#ff4b15;">' + finalerror[key] + '</p>');
+                              }
+                          }
+                      }
+                  });
+              } else {
+                  return false;
+              }
+          }
+      
+          // let myTimer = document.getElementById('myTimer');
+          let myBtn = document.getElementById('myButtonID');
+      
+          function countDown() {
+              $("#myButtonID")
+                  .html("দয়া করে অপেক্ষা করুন")
+                  .attr('disabled', 'disabled');
+      
+              if (sec < 10) {
+                  myBtn.innerHTML = "আবার ওটিপি পাঠানোর জন্য অপেক্ষা করুন " + enToBnNumbers('0') + enToBnNumbers(sec.toString());
+              } else {
+                  myBtn.innerHTML = "আবার ওটিপি পাঠানোর জন্য অপেক্ষা করুন " + enToBnNumbers(sec.toString());
+              }
+      
+              if (sec <= 0) {
+                  $("#myButtonID").removeAttr("disabled");
+                  // $("#myTimer").fadeTo(2500, 0);
+                  myBtn.innerHTML = "আবার ওটিপি পাঠান";
+                  return;
+              }
+              sec -= 1;
+              window.setTimeout(countDown, 1000);
+          }
+      
+          $(document).on('click', '.quick_block .quick-view', function(e) {
+              e.preventDefault();
+              let product = $(this).data('id');
+              $("#productID").html('');
+              $("#productWriter").html('');
+              $("#productCategory").html('');
+              $("#productRating").html('');
+              $("#productTitle").html('');
+              $("#productAbout").html('');
+              $("#productSlider").html('');
+              $("#featureSection").html('');
+              $("#priceSection").html('');
+              $("#productStock").html('');
+              $("#modalWishListBlock").html('');
+              dataattr = [];
+              dataitem = [];
+              $.ajax({
+                  url: "https://www.prothoma.com/product/quickview",
+                  type: 'POST',
+                  data: { "_token": "H8YrzMhGLrLdFebzTSE5oPMjloxnHVIpPuhg2tPz", product: product},
+                  dataType: 'json',
+                  // beforeSend: function() {
+                  //     $('#spinner').show();
+                  // },
+                  success: function(response) {
+                      $("#productID").html(response[0].id);
+                      $("#productTitle").html(response[0].title);
+                      $("#productWriter").html("<span>লেখক: </span> " + response[0].authorList);
+                      $("#productCategory").html("<span>বিষয়:</span> " + response[0].categoryList);
+                      $("#productAbout").html(response[0].short_desc);
+                      $("#featureSection").html(response[0].description);
+                      // $("#variationContent").html(response[1]);
+                      $("#productSlider").html(response[1]);
+                      $("#productRating").html(enToBnNumbers(response[2].toString()) + "(" + enToBnNumbers(response[3].toString()) + ")");
+                      $("#priceSection").html(response[4]);
+                      let wishListed = [];
+                      if (jQuery.inArray(response[0].id, wishListed) != -1) {
+                          let url = "https://www.prothoma.com/book/remove-from-wishlist/id";
+                          url = url.replace('id', response[0].id);
+                          $("#modalWishListBlock").html(`<a href="${url}" class="pull-right wishlisted">পছন্দের বই</a>`);
+                      } else {
+                          let url = "https://www.prothoma.com/book/add-to-wishlist/id";
+                          url = url.replace('id', response[0].id);
+                          $("#modalWishListBlock").html(`<a href="${url}" class="pull-right wishlist">পছন্দের তালিকায় রাখুন</a>`);
+                      }
+      
+                      if (response[0].stock_control == 1) {
+                          if (response[0].quantity < 5) {
+                              $("#productStock").html(`স্টক সীমিত: <span>কেবলমাত্র ${enToBnNumbers(response[0].quantity.toString())} টি বাকি আছে</span>`);
+                          } else {
+                              $("#productStock").html('সংগ্রহে আছে');
+                          }
+                      }
+                      // jQuery('input').iCheck({
+                      //     checkboxClass: 'icheckbox_square',
+                      //     radioClass: 'iradio_flat'
+                      // });
+      
+      
+                      $('#main-slider').slick({
+                          slidesToShow: 1,
+                          slidesToScroll: 1,
+                          arrows: false,
+                          fade: true,
+                          dots: false,
+                          asNavFor: '#carousel-slider'
+                      });
+      
+                      // $('#main-slider .product-image').zoom();
+                      // $('a.popup').venobox();
+      
+                      $('#carousel-slider').slick({
+                          vertical: true,
+                          slidesToShow: 4,
+                          slidesToScroll: 1,
+                          asNavFor: '#main-slider',
+                          dots: false,
+                          centerMode: false,
+                          focusOnSelect: true,
+                      });
+      
+                      // $('#carousel-slider').on('mouseenter', '.slick-slide', function (e) {
+                      //     let $currTarget = $(e.currentTarget),
+                      //             index = $currTarget.data('slick-index'),
+                      //             slickObj = $('#main-slider').slick('getSlick');
+                      //     slickObj.slickGoTo(index);
+                      // });
+      
+                      /*$(".hr-scroll").mCustomScrollbar({
+                          axis:"x",
+                          theme:"dark-3",
+                          documentTouchScroll:true
+                      });*/
+                  }
+              });
+          });
+      
+          function enToBnNumbers(input) {
+              let siteLanguage = 'bn';
+              if (siteLanguage == 'en') {
+                  return input;
+              } else {
+                  let numbers = {
+                      0: '০',
+                      1: '১',
+                      2: '২',
+                      3: '৩',
+                      4: '৪',
+                      5: '৫',
+                      6: '৬',
+                      7: '৭',
+                      8: '৮',
+                      9: '৯'
+                  };
+                  let output = [];
+                  for (let i = 0; i < input.length; ++i) {
+                      if (numbers.hasOwnProperty(input[i])) {
+                          output.push(numbers[input[i]]);
+                      } else {
+                          output.push(input[i]);
+                      }
+                  }
+      
+                  return output.join('');
+              }
+          }
+      
+          // $(document).ready(function() {
+          //     $(".product-search-autocomplete").autocomplete({
+          //         source: function(request, response) {
+          //             $.ajax({
+          //                 url: "https://www.prothoma.com/book/search/autocomplete",
+          //                 type: 'POST',
+          //                 data: { "_token": "H8YrzMhGLrLdFebzTSE5oPMjloxnHVIpPuhg2tPz", "search": request.term },
+          //                 dataType: "json",
+          //                 success: function(data) {
+          //                     // var resp = $.map(data,function(obj) {
+          //                     //     console.log(obj)
+          //                     //     return obj;
+          //                     // });
+      
+          //                     // response(resp);
+          //                     response( $.map( data, function( result ) {
+          //                         return {
+          //                             label: result.title,
+          //                             html: result.html
+          //                         }
+          //                     }));
+          //                 }
+          //             });
+          //         },
+          //         // select: function(event, ui) {
+          //         //     // $("input#searchbox").val(ui.item.value);
+          //         //     console.log(ui.item.value)
+          //         // },
+          //         // minLength: 3
+          //     })
+          //     .data( "ui-autocomplete" )._renderItem = function( ul, item ) {
+          //         return $( "<li></li>" )
+          //            .data( "item.autocomplete", item )
+          //            .append(item.html)
+          //            .appendTo( ul );
+          //     };
+          // });
+      
+          $(document).ready(function(){
+              $(".product-search-autocomplete").bind('keyup focus', function() {
+                  if ($(this).val().length >= 2) {
+                      $.ajax({
+                          type: "POST",
+                          url: "https://www.prothoma.com/book/search/autocomplete",
+                          data:'keyword='+$(this).val(),
+                          data: { "_token": "H8YrzMhGLrLdFebzTSE5oPMjloxnHVIpPuhg2tPz", "search": $(this).val() },
+                          success: function(data) {
+                              $(".suggesstion-box").show();
+                              $(".suggesstion-box").html(data);
+                              $("body").addClass('search-suggession-active');
+                              // $("#search-box").css("background","#FFF");
+                          }
+                      });
+                  } else {
+                      $(".suggesstion-box").hide();
+                  }
+              });
+          });
+      
+          $(document).on('click', function (e) {
+              var searchContainer = $(".product-search-autocomplete");
+              if ($(e.target).closest(".suggesstion-box").length === 0 && !searchContainer.is(e.target)) {
+                  $(".suggesstion-box").hide();
+              }
+          });
+          function removeCoupon(couponId) {
+              if (confirm("Are you sure?")) {
+                  $('.table-responsive').append('<div class="loader_block" id="loader_block_cart"><div class="loader-container"><div class="loader-spinner"></div></div></div>');
+                  let wrapperExists = $('#gift_wrapper');
+                  let wrapperChecked = 0;
+                  if (wrapperExists.length == 1) {
+                      if ($('#gift_wrapper').prop('checked') == true) {
+                          wrapperChecked = 1;
+                      }
+                  }
+      
+                  $.ajax({
+                      type: "POST",
+                      data: {_token: 'H8YrzMhGLrLdFebzTSE5oPMjloxnHVIpPuhg2tPz', couponId: couponId, wrapperChecked: wrapperChecked},
+                      url: "https://www.prothoma.com/carts/removecouponajax",
+                      success: function (response) {
+                          //location.reload(true);
+                          let obj = response;
+                          $('#loader_block_cart').remove();
+                          $(".cartupdate").html($("<div/>").html(obj.cart).text());
+                          $(".dropdown.shopping-bag.layoutcart").html($("<div/>").html(obj.layout).text());
+                      }
+                  });
+              }
+          }
+      </script>
+      <script>
+          let cartHeight = $('.header').outerHeight() + 40;
+          // console.log(cartHeight);
+          jQuery('.cart-info-wp').theiaStickySidebar({
+              // Settings
+              additionalMarginTop: cartHeight
+          });
+      
+          $(document).on('click', '.promobutton', function (e) {
+              var no_error = 1;
+              var promocode = $('#promocode').val();
+              if (promocode == '') {
+                  $('.promoerror').addClass('form_input_error');
+                  no_error = 0;
+              } else {
+                  $('.promoerror').removeClass('form_input_error');
+              }
+      
+              let wrapperExists = $('#gift_wrapper');
+              let wrapperChecked = 0;
+              if (wrapperExists.length == 1) {
+                  if ($('#gift_wrapper').prop('checked') == true) {
+                      wrapperChecked = 1;
+                  }
+              }
+      
+              if (no_error) {
+                  $.ajax({
+                  type: "POST",
+                  data: {"_token": "H8YrzMhGLrLdFebzTSE5oPMjloxnHVIpPuhg2tPz", coupon: promocode, wrapperChecked: wrapperChecked},
+                  url: "https://www.prothoma.com/ordercoupon",
+                  success: function (response) {
+                          var obj = response;
+                          if(obj.error == 0) {
+                              $(".couponerror").empty();
+                              $(".cartupdate").html($("<div/>").html(obj.cart).text());
+                          } else {
+                              $(".couponerror").empty();
+                              $(".cartupdate").html($("<div/>").html(obj.cart).text());
+                              $('.couponerror').append('<p style="color:#ff4b15;">' + obj.errorMsg + '</p>');
+                          }
+                      }
+                  });
+              } else {
+                  return false;
+              }
+          });
+      
+          $('#giftWrapperLine').hide();
+      
+          $(document).on('click','#gift_wrapper', function (event) {
+              let giftWrapper = total = 0;
+              if($(this).prop("checked") == true){
+                  giftWrapper = 1;
+                  $('#giftWrapperLine').show();
+                  total = ' ১,১২৩.২০ টাকা ';
+              }else{
+                  $('#giftWrapperLine').hide();
+                  giftWrapper = 0;
+                  total =  ' ১,১০৩.২০ টাকা ';
+              }
+      
+              $('#fullSubtotalWithAll').html(total);
+      
+      
+              $.ajax({
+                  type: "POST",
+                  data: {_token: 'H8YrzMhGLrLdFebzTSE5oPMjloxnHVIpPuhg2tPz', giftWrapper: giftWrapper},
+                  url: "https://www.prothoma.com/session/add/gift-wrapper",
+                  success: function (response) {
+      
+                  }
+              });
+          });
+      
+      </script>
+  </body>
+</html>

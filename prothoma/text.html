@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+        }
+
+        #placeholder {
+            width: 300px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        #generateBarcodeButton {
+            padding: 10px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="placeholder" placeholder="Generated Barcode">
+        <button id="generateBarcodeButton">Generate Barcode</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.0/dist/JsBarcode.all.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const placeholder = document.getElementById('placeholder');
+            const generateBarcodeButton = document.getElementById('generateBarcodeButton');
+
+            generateBarcodeButton.addEventListener('click', function () {
+                const barcodeValue = generateRandomBarcode(); // Generate a random barcode value
+                placeholder.value = barcodeValue;
+                setTimeout(() => generateBarcode(barcodeValue), 10); // Delay the barcode generation
+            });
+
+            // Function to generate a random barcode value (you can replace this with your own barcode generation logic)
+            function generateRandomBarcode() {
+                const barcodeLength = 10; // Define the length of the barcode
+                const characters = '0123456789'; // Define the characters that can be in the barcode
+
+                let result = '';
+                for (let i = 0; i < barcodeLength; i++) {
+                    const randomIndex = Math.floor(Math.random() * characters.length);
+                    result += characters.charAt(randomIndex);
+                }
+                return result;
+            }
+
+            // Function to generate the barcode image using JsBarcode library
+            function generateBarcode(value) {
+                JsBarcode("#placeholder", value, {
+                    format: "CODE128", // You can use other barcode formats as needed
+                    displayValue: false,
+                });
+            }
+        });
+    </script>
+</body>
+</html>
