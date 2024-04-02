@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - Shopee</title>
+    <!-- Add Tailwind CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- Add your scripts and additional stylesheets here -->
+</head>
+<body class="font-sans bg-gray-100">
+
+<!-- Header Section -->
+<header class="bg-red-500 p-4 text-white">
+    <div class="container mx-auto">
+        <h1 class="text-2xl font-semibold">Product Details</h1>
+    </div>
+</header>
+
+<!-- Product Details Section -->
+<div class="container mx-auto mt-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <!-- Product Image Section -->
+        <div class="col-span-1">
+            <img id="mainImage" src="https://down-id.img.susercontent.com/file/id-11134201-7r98v-lndwce4kqo3tfb" alt="Product 1" class="w-full h-auto mb-4 rounded-md shadow-md">
+            <!-- Add image gallery or zoom functionality if needed -->
+        </div>
+
+        <!-- Product Information Section -->
+        <div class="col-span-2">
+            <h2 id="productName" class="text-2xl font-semibold mb-4">Product 1 Name</h2>
+            <p id="productPrice" class="text-lg text-gray-700 mb-2">$19.99</p>
+            <p id="productStock" class="text-sm text-gray-500 mb-4">In Stock</p>
+
+            <!-- Product Variants (if applicable) -->
+            <!-- Add dropdowns, radio buttons, or swatches for selecting variants -->
+
+            <!-- Product Description -->
+            <h3 class="text-xl font-semibold mb-2">Description</h3>
+            <p id="productDescription" class="text-gray-700 mb-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et quam vitae arcu vestibulum
+                viverra.
+                <!-- Add more product details and specifications -->
+
+            <!-- Quantity Selector -->
+            <div class="flex items-center mb-4">
+                <label for="quantity" class="mr-2">Quantity:</label>
+                <button id="decrementBtn" class="bg-red-500 text-black px-3 py-1 rounded-md">-</button>
+                <input id="quantity" type="number" value="1" min="1" class="mx-2 w-12 text-center border-gray-300 focus:outline-none">
+                <button id="incrementBtn" class="bg-red-500 text-black px-3 py-1 rounded-md">+</button>
+            </div>
+
+            <!-- Add to Cart Button -->
+            <button id="addToCartBtn" class="bg-red-500 text-black px-6 py-3 rounded-md">Add to Cart</button>
+        </div>
+    </div>
+</div>
+
+<!-- Similar Products Section (Optional) -->
+<div class="container mx-auto mt-8">
+    <h2 class="text-2xl font-semibold mb-4">Similar Products</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+        <!-- Display similar products with images and names -->
+        <!-- You can use a loop to generate these based on your product data -->
+        <!-- Example product card: -->
+        <div class="bg-white p-4 shadow-md rounded-md">
+            <img src="https://down-id.img.susercontent.com/file/id-11134201-7r991-lnidm89tpa4pf8_tn" alt="Similar Product 1" class="w-full h-32 object-cover mb-2 rounded-md">
+            <p class="text-sm text-gray-700">Similar Product 1 Name</p>
+            <p class="text-sm text-gray-500">Price: $24.99</p>
+        </div>
+        <!-- Repeat for additional similar products -->
+        <div class="bg-white p-4 shadow-md rounded-md">
+            <img src="https://static-01.daraz.com.bd/p/cec95cb8a9c3321d02a32856b8adc4a9.jpg_100x100.jpg_.webp" alt="Similar Product 1" class="w-full h-32 object-cover mb-2 rounded-md">
+            <p class="text-sm text-gray-700">Similar Product 1 Name</p>
+            <p class="text-sm text-gray-500">Price: $24.99</p>
+        </div>
+        <div class="bg-white p-4 shadow-md rounded-md">
+            <img src="https://static-01.daraz.com.bd/p/cec95cb8a9c3321d02a32856b8adc4a9.jpg_100x100.jpg_.webp" alt="Similar Product 1" class="w-full h-32 object-cover mb-2 rounded-md">
+            <p class="text-sm text-gray-700">Similar Product 1 Name</p>
+            <p class="text-sm text-gray-500">Price: $24.99</p>
+        </div>
+        <div class="bg-white p-4 shadow-md rounded-md">
+            <img src="https://static-01.daraz.com.bd/p/cec95cb8a9c3321d02a32856b8adc4a9.jpg_100x100.jpg_.webp" alt="Similar Product 1" class="w-full h-32 object-cover mb-2 rounded-md">
+            <p class="text-sm text-gray-700">Similar Product 1 Name</p>
+            <p class="text-sm text-gray-500">Price: $24.99</p>
+        </div>
+    </div>
+</div>
+
+<!-- Footer Section -->
+<footer class="bg-gray-200 p-4 mt-8">
+    <div class="container mx-auto text-center">
+        <p class="text-gray-600">&copy; 2024 Your Company. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- Add your scripts here, including Tailwind CSS and any additional JavaScript -->
+<script>
+    // JavaScript for quantity selector
+    const decrementBtn = document.getElementById('decrementBtn');
+    const incrementBtn = document.getElementById('incrementBtn');
+    const quantityInput = document.getElementById('quantity');
+
+    decrementBtn.addEventListener('click', () => {
+        if (parseInt(quantityInput.value) > 1) {
+            quantityInput.value = parseInt(quantityInput.value) - 1;
+        }
+    });
+
+    incrementBtn.addEventListener('click', () => {
+        quantityInput.value = parseInt(quantityInput.value) + 1;
+    });
+</script>
+</body>
+</html>
